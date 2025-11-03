@@ -1,0 +1,3674 @@
+INSPECTION of D:\crackmes\MIYTWEAK.pyc
+magic bytes: f30d0d0a
+marshal.load succeeded at offset 16
+
+========================================================================
+Code object: '<module>'
+  filename: MIY TWEAK.py
+  firstlineno: 1
+  argcount: 0 (posonly: 0, kwonly: 0, nlocals: 0)
+  varnames: ()
+  names: ('pystyle', 'Colorate', 'Colors', 'time', 'hashlib', 'requests', 'os', 'subprocess', 'shutil', 'sys', 'GREEN', 'RESET', 'RED', 'check_hwid', 'exit', 'musor', 'reset_internet', 'optimize_internet', 'disable_services', 'smartscreen', 'telemetry', 'bcdedit_tweaks', 'optimize_internet2', 'clear_event_logs', 'delete_old_windows', 'menu', 'main', '__name__')
+  consts (21):
+    [00] 0
+    [01] ('Colorate', 'Colors')
+    [02] None
+    [03] '\x1b[32m'
+    [04] '\x1b[39m'
+    [05] '\x1b[31m'
+    [06] <code object check_hwid at 0x221e78dba30>
+    [07] <code object exit at 0x221e7c25f30>
+    [08] <code object musor at 0x221e78f0e90>
+    [09] <code object reset_internet at 0x221e7395a80>
+    [10] <code object optimize_internet at 0x221e7902c00>
+    [11] <code object disable_services at 0x221e78dc3b0>
+    [12] <code object smartscreen at 0x221e78db3e0>
+    [13] <code object telemetry at 0x221e78f1330>
+    [14] <code object bcdedit_tweaks at 0x221e78f15f0>
+    [15] <code object optimize_internet2 at 0x221e78de4b0>
+    [16] <code object clear_event_logs at 0x221e78f1b20>
+    [17] <code object delete_old_windows at 0x221e7902e90>
+    [18] <code object menu at 0x221e7613b40>
+    [19] <code object main at 0x221e78f2220>
+    [20] '__main__'
+
+  --- disassembly ---
+      0           RESUME                   0
+    
+      1           LOAD_CONST               0 (0)
+                  LOAD_CONST               1 (('Colorate', 'Colors'))
+                  IMPORT_NAME              0 (pystyle)
+                  IMPORT_FROM              1 (Colorate)
+                  STORE_NAME               1 (Colorate)
+                  IMPORT_FROM              2 (Colors)
+                  STORE_NAME               2 (Colors)
+                  POP_TOP
+    
+      2           LOAD_CONST               0 (0)
+                  LOAD_CONST               2 (None)
+                  IMPORT_NAME              3 (time)
+                  STORE_NAME               3 (time)
+    
+      3           LOAD_CONST               0 (0)
+                  LOAD_CONST               2 (None)
+                  IMPORT_NAME              4 (hashlib)
+                  STORE_NAME               4 (hashlib)
+    
+      4           LOAD_CONST               0 (0)
+                  LOAD_CONST               2 (None)
+                  IMPORT_NAME              5 (requests)
+                  STORE_NAME               5 (requests)
+    
+      5           LOAD_CONST               0 (0)
+                  LOAD_CONST               2 (None)
+                  IMPORT_NAME              6 (os)
+                  STORE_NAME               6 (os)
+    
+      6           LOAD_CONST               0 (0)
+                  LOAD_CONST               2 (None)
+                  IMPORT_NAME              7 (subprocess)
+                  STORE_NAME               7 (subprocess)
+    
+      7           LOAD_CONST               0 (0)
+                  LOAD_CONST               2 (None)
+                  IMPORT_NAME              8 (shutil)
+                  STORE_NAME               8 (shutil)
+    
+      8           LOAD_CONST               0 (0)
+                  LOAD_CONST               2 (None)
+                  IMPORT_NAME              9 (sys)
+                  STORE_NAME               9 (sys)
+    
+     10           LOAD_CONST               3 ('\x1b[32m')
+                  STORE_NAME              10 (GREEN)
+    
+     11           LOAD_CONST               4 ('\x1b[39m')
+                  STORE_NAME              11 (RESET)
+    
+     12           LOAD_CONST               5 ('\x1b[31m')
+                  STORE_NAME              12 (RED)
+    
+     14           LOAD_CONST               6 (<code object check_hwid at 0x00000221E78DBA30, file "MIY TWEAK.py", line 14>)
+                  MAKE_FUNCTION
+                  STORE_NAME              13 (check_hwid)
+    
+     37           LOAD_CONST               7 (<code object exit at 0x00000221E7C25F30, file "MIY TWEAK.py", line 37>)
+                  MAKE_FUNCTION
+                  STORE_NAME              14 (exit)
+    
+     40           LOAD_CONST               8 (<code object musor at 0x00000221E78F0E90, file "MIY TWEAK.py", line 40>)
+                  MAKE_FUNCTION
+                  STORE_NAME              15 (musor)
+    
+    107           LOAD_CONST               9 (<code object reset_internet at 0x00000221E7395A80, file "MIY TWEAK.py", line 107>)
+                  MAKE_FUNCTION
+                  STORE_NAME              16 (reset_internet)
+    
+    141           LOAD_CONST              10 (<code object optimize_internet at 0x00000221E7902C00, file "MIY TWEAK.py", line 141>)
+                  MAKE_FUNCTION
+                  STORE_NAME              17 (optimize_internet)
+    
+    172           LOAD_CONST              11 (<code object disable_services at 0x00000221E78DC3B0, file "MIY TWEAK.py", line 172>)
+                  MAKE_FUNCTION
+                  STORE_NAME              18 (disable_services)
+    
+    234           LOAD_CONST              12 (<code object smartscreen at 0x00000221E78DB3E0, file "MIY TWEAK.py", line 234>)
+                  MAKE_FUNCTION
+                  STORE_NAME              19 (smartscreen)
+    
+    261           LOAD_CONST              13 (<code object telemetry at 0x00000221E78F1330, file "MIY TWEAK.py", line 261>)
+                  MAKE_FUNCTION
+                  STORE_NAME              20 (telemetry)
+    
+    307           LOAD_CONST              14 (<code object bcdedit_tweaks at 0x00000221E78F15F0, file "MIY TWEAK.py", line 307>)
+                  MAKE_FUNCTION
+                  STORE_NAME              21 (bcdedit_tweaks)
+    
+    331           LOAD_CONST              15 (<code object optimize_internet2 at 0x00000221E78DE4B0, file "MIY TWEAK.py", line 331>)
+                  MAKE_FUNCTION
+                  STORE_NAME              22 (optimize_internet2)
+    
+    372           LOAD_CONST              16 (<code object clear_event_logs at 0x00000221E78F1B20, file "MIY TWEAK.py", line 372>)
+                  MAKE_FUNCTION
+                  STORE_NAME              23 (clear_event_logs)
+    
+    392           LOAD_CONST              17 (<code object delete_old_windows at 0x00000221E7902E90, file "MIY TWEAK.py", line 392>)
+                  MAKE_FUNCTION
+                  STORE_NAME              24 (delete_old_windows)
+    
+    412           LOAD_CONST              18 (<code object menu at 0x00000221E7613B40, file "MIY TWEAK.py", line 412>)
+                  MAKE_FUNCTION
+                  STORE_NAME              25 (menu)
+    
+    433           LOAD_CONST              19 (<code object main at 0x00000221E78F2220, file "MIY TWEAK.py", line 433>)
+                  MAKE_FUNCTION
+                  STORE_NAME              26 (main)
+    
+    488           LOAD_NAME               27 (__name__)
+                  LOAD_CONST              20 ('__main__')
+                  COMPARE_OP              88 (bool(==))
+                  POP_JUMP_IF_FALSE       15 (to L1)
+    
+    489           LOAD_NAME               13 (check_hwid)
+                  PUSH_NULL
+                  CALL                     0
+                  POP_TOP
+    
+    490           LOAD_NAME               26 (main)
+                  PUSH_NULL
+                  CALL                     0
+                  POP_TOP
+                  RETURN_CONST             2 (None)
+    
+    488   L1:     RETURN_CONST             2 (None)
+    
+    Disassembly of <code object check_hwid at 0x00000221E78DBA30, file "MIY TWEAK.py", line 14>:
+      14            RESUME                   0
+    
+      15            NOP
+    
+      16    L1:     LOAD_GLOBAL              0 (subprocess)
+                    LOAD_ATTR                2 (check_output)
+                    PUSH_NULL
+                    LOAD_CONST               1 ('wmic csproduct get uuid')
+                    CALL                     1
+                    LOAD_ATTR                5 (decode + NULL|self)
+                    CALL                     0
+                    LOAD_ATTR                7 (split + NULL|self)
+                    LOAD_CONST               2 ('\n')
+                    CALL                     1
+                    LOAD_CONST               3 (1)
+                    BINARY_SUBSCR
+                    LOAD_ATTR                9 (strip + NULL|self)
+                    CALL                     0
+                    STORE_FAST               0 (hwid_raw)
+    
+      17            LOAD_GLOBAL             10 (hashlib)
+                    LOAD_ATTR               12 (sha256)
+                    PUSH_NULL
+                    LOAD_FAST                0 (hwid_raw)
+                    LOAD_ATTR               15 (encode + NULL|self)
+                    CALL                     0
+                    CALL                     1
+                    LOAD_ATTR               17 (hexdigest + NULL|self)
+                    CALL                     0
+                    STORE_FAST               1 (hwid_hash)
+    
+      18            LOAD_GLOBAL             18 (requests)
+                    LOAD_ATTR               20 (get)
+                    PUSH_NULL
+                    LOAD_CONST               4 ('https://pastebin.com/g6rVqTUa')
+                    CALL                     1
+                    STORE_FAST               2 (r)
+    
+      19            LOAD_FAST_LOAD_FAST     18 (hwid_hash, r)
+                    LOAD_ATTR               22 (text)
+                    CONTAINS_OP              0
+                    POP_JUMP_IF_FALSE       67 (to L3)
+    
+      20            LOAD_GLOBAL             25 (print + NULL)
+                    LOAD_CONST               5 ('Проверка...')
+                    CALL                     1
+                    POP_TOP
+    
+      21            LOAD_GLOBAL             26 (time)
+                    LOAD_ATTR               28 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST               6 (0.4)
+                    CALL                     1
+                    POP_TOP
+    
+      22            LOAD_GLOBAL             25 (print + NULL)
+                    LOAD_CONST               7 ('Доступ разрешён.')
+                    CALL                     1
+                    POP_TOP
+    
+      23            LOAD_GLOBAL             26 (time)
+                    LOAD_ATTR               28 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST               3 (1)
+                    CALL                     1
+                    POP_TOP
+            L2:     RETURN_CONST             0 (None)
+    
+      25    L3:     LOAD_GLOBAL             25 (print + NULL)
+                    LOAD_CONST               5 ('Проверка...')
+                    CALL                     1
+                    POP_TOP
+    
+      26            LOAD_GLOBAL             26 (time)
+                    LOAD_ATTR               28 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST               6 (0.4)
+                    CALL                     1
+                    POP_TOP
+    
+      27            LOAD_GLOBAL             25 (print + NULL)
+                    LOAD_CONST               8 ('Ключ не найден в базе данных, напишите в Discord: lucy_neo')
+                    CALL                     1
+                    POP_TOP
+    
+      28            LOAD_GLOBAL             25 (print + NULL)
+                    LOAD_CONST               9 ('Ключ доступа: ')
+                    LOAD_FAST                1 (hwid_hash)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    CALL                     1
+                    POP_TOP
+    
+      29            LOAD_GLOBAL             26 (time)
+                    LOAD_ATTR               28 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST              10 (60)
+                    CALL                     1
+                    POP_TOP
+    
+      30            LOAD_GLOBAL             30 (os)
+                    LOAD_ATTR               32 (_exit)
+                    PUSH_NULL
+                    LOAD_CONST              11 (0)
+                    CALL                     1
+                    POP_TOP
+            L4:     RETURN_CONST             0 (None)
+    
+      --    L5:     PUSH_EXC_INFO
+    
+      31            LOAD_GLOBAL             34 (Exception)
+                    CHECK_EXC_MATCH
+                    POP_JUMP_IF_FALSE       68 (to L9)
+                    STORE_FAST               3 (e)
+    
+      32    L6:     LOAD_GLOBAL             25 (print + NULL)
+                    LOAD_CONST              12 ('Ошибка соединения с базой данных: ')
+                    LOAD_FAST                3 (e)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    CALL                     1
+                    POP_TOP
+    
+      33            LOAD_GLOBAL             26 (time)
+                    LOAD_ATTR               28 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST              13 (5)
+                    CALL                     1
+                    POP_TOP
+    
+      34            LOAD_GLOBAL             30 (os)
+                    LOAD_ATTR               32 (_exit)
+                    PUSH_NULL
+                    LOAD_CONST              11 (0)
+                    CALL                     1
+                    POP_TOP
+            L7:     POP_EXCEPT
+                    LOAD_CONST               0 (None)
+                    STORE_FAST               3 (e)
+                    DELETE_FAST              3 (e)
+                    RETURN_CONST             0 (None)
+    
+      --    L8:     LOAD_CONST               0 (None)
+                    STORE_FAST               3 (e)
+                    DELETE_FAST              3 (e)
+                    RERAISE                  1
+    
+      31    L9:     RERAISE                  0
+    
+      --   L10:     COPY                     3
+                    POP_EXCEPT
+                    RERAISE                  1
+    ExceptionTable:
+      L1 to L2 -> L5 [0]
+      L3 to L4 -> L5 [0]
+      L5 to L6 -> L10 [1] lasti
+      L6 to L7 -> L8 [1] lasti
+      L8 to L10 -> L10 [1] lasti
+    
+    Disassembly of <code object exit at 0x00000221E7C25F30, file "MIY TWEAK.py", line 37>:
+     37           RESUME                   0
+    
+     38           LOAD_GLOBAL              0 (sys)
+                  LOAD_ATTR                2 (exit)
+                  PUSH_NULL
+                  CALL                     0
+                  POP_TOP
+                  RETURN_CONST             0 (None)
+    
+    Disassembly of <code object musor at 0x00000221E78F0E90, file "MIY TWEAK.py", line 40>:
+     40           RESUME                   0
+    
+     41           LOAD_GLOBAL              0 (os)
+                  LOAD_ATTR                2 (system)
+                  PUSH_NULL
+                  LOAD_CONST               1 ('cls')
+                  CALL                     1
+                  POP_TOP
+    
+     42           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL              6 (RESET)
+                  LOAD_CONST               2 ('\n\n')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+     43           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               3 ('Удаление ненужных файлов...')
+                  CALL                     1
+                  POP_TOP
+    
+     44           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL              8 (GREEN)
+                  LOAD_CONST               2 ('\n\n')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+     46           BUILD_LIST               0
+                  LOAD_CONST               4 (('reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit\\Favorites" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit\\Favorites" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\LastVisitedPidlMRU" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\LastVisitedPidlMRULegacy" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Paint\\Recent File List" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Applets\\Paint\\Recent File List" /va /f', 'reg delete "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Applets\\Wordpad\\Recent File List" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Map Network Drive MRU" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Map Network Drive MRU" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\Search Assistant\\ACMru" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RecentDocs" /va /f', 'reg delete "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RecentDocs" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\OpenSaveMRU" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\MediaPlayer\\Player\\RecentFileList" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\MediaPlayer\\Player\\RecentURLList" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\MediaPlayer\\Player\\RecentFileList" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\MediaPlayer\\Player\\RecentURLList" /va /f', 'reg delete "HKCU\\SOFTWARE\\Microsoft\\Direct3D\\MostRecentApplication" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\Direct3D\\MostRecentApplication" /va /f', 'reg delete "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RunMRU" /va /f', 'reg delete "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\TypedPaths" /va /f'))
+                  LIST_EXTEND              1
+                  STORE_FAST               0 (reg_commands)
+    
+     72           LOAD_FAST                0 (reg_commands)
+                  GET_ITER
+          L1:     FOR_ITER                54 (to L2)
+                  STORE_FAST               1 (command)
+    
+     73           LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               12 (run)
+                  PUSH_NULL
+                  LOAD_FAST                1 (command)
+                  LOAD_CONST               5 (True)
+                  LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               14 (PIPE)
+                  LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               14 (PIPE)
+                  LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                  CALL_KW                  4
+                  POP_TOP
+                  JUMP_BACKWARD           56 (to L1)
+    
+     72   L2:     END_FOR
+                  POP_TOP
+    
+     75           BUILD_LIST               0
+                  LOAD_CONST               7 (('c:\\windows\\temp\\*.*', '%userprofile%\\Recent\\*.*', 'c:\\Windows\\Prefetch\\*.*', '%userprofile%\\AppData\\Local\\Temp\\*.*', '%userprofile%\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\*.*', '%TEMP%\\*', 'C:\\$Recycle.Bin\\*', 'C:\\Windows\\SoftwareDistribution\\Download\\*', 'C:\\Windows\\SoftwareDistribution\\DataStore\\*'))
+                  LIST_EXTEND              1
+                  STORE_FAST               2 (file_commands)
+    
+     87           LOAD_FAST                2 (file_commands)
+                  GET_ITER
+          L3:     EXTENDED_ARG             1
+                  FOR_ITER               267 (to L6)
+                  STORE_FAST               1 (command)
+    
+     88           LOAD_GLOBAL              0 (os)
+                  LOAD_ATTR               16 (path)
+                  LOAD_ATTR               19 (expandvars + NULL|self)
+                  LOAD_FAST                1 (command)
+                  CALL                     1
+                  STORE_FAST               3 (command_expanded)
+    
+     89           LOAD_FAST                3 (command_expanded)
+                  LOAD_ATTR               21 (split + NULL|self)
+                  LOAD_CONST               8 ('\\*')
+                  CALL                     1
+                  LOAD_CONST               9 (0)
+                  BINARY_SUBSCR
+                  STORE_FAST               4 (folder)
+    
+     90           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST              10 ('Удаление в: ')
+                  LOAD_FAST                4 (folder)
+                  FORMAT_SIMPLE
+                  BUILD_STRING             2
+                  CALL                     1
+                  POP_TOP
+    
+     91           LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               12 (run)
+                  PUSH_NULL
+                  LOAD_CONST              11 ('del /s /f /q ')
+                  LOAD_FAST                3 (command_expanded)
+                  FORMAT_SIMPLE
+                  BUILD_STRING             2
+                  LOAD_CONST               5 (True)
+                  LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               14 (PIPE)
+                  LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               14 (PIPE)
+                  LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                  CALL_KW                  4
+                  STORE_FAST               5 (result)
+    
+     93           LOAD_FAST                5 (result)
+                  LOAD_ATTR               22 (returncode)
+                  LOAD_CONST               9 (0)
+                  COMPARE_OP              88 (bool(==))
+                  POP_JUMP_IF_FALSE       11 (to L4)
+    
+     94           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST              12 ('Удалено')
+                  CALL                     1
+                  POP_TOP
+    
+     96   L4:     LOAD_GLOBAL              0 (os)
+                  LOAD_ATTR               16 (path)
+                  LOAD_ATTR               25 (exists + NULL|self)
+                  LOAD_FAST                4 (folder)
+                  CALL                     1
+                  TO_BOOL
+                  POP_JUMP_IF_TRUE         2 (to L5)
+                  JUMP_BACKWARD          188 (to L3)
+    
+     97   L5:     LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST              13 ('Путь: ')
+                  LOAD_FAST                4 (folder)
+                  FORMAT_SIMPLE
+                  BUILD_STRING             2
+                  CALL                     1
+                  POP_TOP
+    
+     98           LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               12 (run)
+                  PUSH_NULL
+                  LOAD_CONST              14 ('rd /s /q ')
+                  LOAD_FAST                4 (folder)
+                  FORMAT_SIMPLE
+                  BUILD_STRING             2
+                  LOAD_CONST               5 (True)
+                  LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               14 (PIPE)
+                  LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               14 (PIPE)
+                  LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                  CALL_KW                  4
+                  POP_TOP
+    
+     99           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST              12 ('Удалено')
+                  CALL                     1
+                  POP_TOP
+                  EXTENDED_ARG             1
+                  JUMP_BACKWARD          270 (to L3)
+    
+     87   L6:     END_FOR
+                  POP_TOP
+    
+    101           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    102           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL              6 (RESET)
+                  LOAD_CONST              15 ('Успешно')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+    103           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    104           LOAD_GLOBAL             26 (time)
+                  LOAD_ATTR               28 (sleep)
+                  PUSH_NULL
+                  LOAD_CONST              16 (2)
+                  CALL                     1
+                  POP_TOP
+    
+    105           LOAD_GLOBAL             31 (main + NULL)
+                  CALL                     0
+                  POP_TOP
+                  RETURN_CONST             0 (None)
+    
+    Disassembly of <code object reset_internet at 0x00000221E7395A80, file "MIY TWEAK.py", line 107>:
+    107           RESUME                   0
+    
+    108           LOAD_GLOBAL              0 (os)
+                  LOAD_ATTR                2 (system)
+                  PUSH_NULL
+                  LOAD_CONST               1 ('cls')
+                  CALL                     1
+                  POP_TOP
+    
+    109           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL              6 (RESET)
+                  LOAD_CONST               2 ('Сброс сетевых параметров...')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+    110           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL              8 (GREEN)
+                  LOAD_CONST               3 ('\n\n')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+    112           BUILD_LIST               0
+                  LOAD_CONST               4 (('netsh int ip reset global', 'netsh winsock reset', 'netsh int tcp reset', 'netsh int ip reset', 'netsh nap reset', 'netsh rpc reset', 'netsh winhttp reset', 'netsh http flush', 'netsh routing reset', 'netsh int ipv4 reset', 'netsh int ipv6 reset', 'netsh int ip reset all', 'netsh winsock reset', 'netsh advfirewall reset', 'nbtstat -R', 'nbtstat -RR'))
+                  LIST_EXTEND              1
+                  STORE_FAST               0 (netsh_commands)
+    
+    131           LOAD_FAST                0 (netsh_commands)
+                  GET_ITER
+          L1:     FOR_ITER                65 (to L2)
+                  STORE_FAST               1 (command)
+    
+    132           LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               12 (run)
+                  PUSH_NULL
+                  LOAD_FAST                1 (command)
+                  LOAD_CONST               5 (True)
+                  LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               14 (PIPE)
+                  LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               14 (PIPE)
+                  LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                  CALL_KW                  4
+                  POP_TOP
+    
+    133           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               7 ('Команда выполнена')
+                  CALL                     1
+                  POP_TOP
+                  JUMP_BACKWARD           67 (to L1)
+    
+    131   L2:     END_FOR
+                  POP_TOP
+    
+    135           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               3 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    136           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL              6 (RESET)
+                  LOAD_CONST               8 ('Параметры TCP/IP успешно сброшены')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+    137           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               3 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    138           LOAD_GLOBAL             16 (time)
+                  LOAD_ATTR               18 (sleep)
+                  PUSH_NULL
+                  LOAD_CONST               9 (2)
+                  CALL                     1
+                  POP_TOP
+    
+    139           LOAD_GLOBAL             21 (main + NULL)
+                  CALL                     0
+                  POP_TOP
+                  RETURN_CONST             0 (None)
+    
+    Disassembly of <code object optimize_internet at 0x00000221E7902C00, file "MIY TWEAK.py", line 141>:
+    141           RESUME                   0
+    
+    142           LOAD_GLOBAL              0 (os)
+                  LOAD_ATTR                2 (system)
+                  PUSH_NULL
+                  LOAD_CONST               1 ('cls')
+                  CALL                     1
+                  POP_TOP
+    
+    143           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    144           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL              6 (RESET)
+                  LOAD_CONST               3 ('Оптимизация сетевых параметров...')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+    145           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL              8 (GREEN)
+                  LOAD_CONST               2 ('\n\n')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+    147           BUILD_LIST               0
+                  LOAD_CONST               4 (('netsh int tcp set global rsc=enabled', 'netsh int tcp set global ecncapability=disabled', 'netsh int tcp set global autotuninglevel=disabled', 'netsh int tcp set heuristics disabled', 'netsh int tcp set global chimney=disabled', 'netsh int tcp set global dca=enabled', 'netsh int tcp set global rss=enabled', 'netsh int tcp set global netdma=enabled', 'netsh int tcp set global congestionprovider=ctcp', 'netsh int tcp set global timestamps=disabled', 'netsh int tcp set global nonsackrttresiliency=disabled', 'netsh int tcp set supplemental template=custom icw=10'))
+                  LIST_EXTEND              1
+                  STORE_FAST               0 (netsh_commands)
+    
+    162           LOAD_FAST                0 (netsh_commands)
+                  GET_ITER
+          L1:     FOR_ITER                65 (to L2)
+                  STORE_FAST               1 (command)
+    
+    163           LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               12 (run)
+                  PUSH_NULL
+                  LOAD_FAST                1 (command)
+                  LOAD_CONST               5 (True)
+                  LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               14 (PIPE)
+                  LOAD_GLOBAL             10 (subprocess)
+                  LOAD_ATTR               14 (PIPE)
+                  LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                  CALL_KW                  4
+                  POP_TOP
+    
+    164           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               7 ('Команда выполнена')
+                  CALL                     1
+                  POP_TOP
+                  JUMP_BACKWARD           67 (to L1)
+    
+    162   L2:     END_FOR
+                  POP_TOP
+    
+    166           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    167           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL              6 (RESET)
+                  LOAD_CONST               8 ('Успешно')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+    168           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    169           LOAD_GLOBAL             16 (time)
+                  LOAD_ATTR               18 (sleep)
+                  PUSH_NULL
+                  LOAD_CONST               9 (2)
+                  CALL                     1
+                  POP_TOP
+    
+    170           LOAD_GLOBAL             21 (main + NULL)
+                  CALL                     0
+                  POP_TOP
+                  RETURN_CONST             0 (None)
+    
+    Disassembly of <code object disable_services at 0x00000221E78DC3B0, file "MIY TWEAK.py", line 172>:
+    172           RESUME                   0
+    
+    173           LOAD_GLOBAL              0 (os)
+                  LOAD_ATTR                2 (system)
+                  PUSH_NULL
+                  LOAD_CONST               1 ('cls')
+                  CALL                     1
+                  POP_TOP
+    
+    174           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    175           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               3 ('Отключение и настройка служб...')
+                  CALL                     1
+                  POP_TOP
+    
+    176           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    178           BUILD_LIST               0
+                  LOAD_CONST               4 ((('Fax', 'Fax'), ('NetTcpPortSharing', 'NetTcpPortSharing'), ('workfolderssvc', 'workfolderssvc'), ('AJRouter', 'AJRouter'), ('AppIDSvc', 'AppIDSvc'), ('BDESVC', 'BDESVC'), ('irmon', 'irmon'), ('vmicvmsession', 'vmicvmsession'), ('vmicrdv', 'vmicrdv'), ('lfsvc', 'lfsvc'), ('vmicshutdown', 'vmicshutdown'), ('vmicvss', 'vmicvss'), ('vmickvpexchange', 'vmickvpexchange'), ('vmicheartbeat', 'vmicheartbeat'), ('vmictimesync', 'vmictimesync'), ('HvHost', 'HvHost'), ('vmicguestinterface', 'vmicguestinterface'), ('SensorDataService', 'SensorDataService'), ('SensorService', 'SensorService'), ('SensrSvc', 'SensrSvc'), ('SEMgrSvc', 'SEMgrSvc'), ('RemoteAccess', 'RemoteAccess'), ('SessionEnv', 'SessionEnv'), ('SharedAccess', 'SharedAccess'), ('SCPolicySvc', 'SCPolicySvc'), ('CertPropSvc', 'CertPropSvc'), ('TermService', 'TermService'), ('TrkWks', 'TrkWks'), ('WpcMonSvc', 'WpcMonSvc'), ('FrameServer', 'FrameServer'), ('ScDeviceEnum', 'ScDeviceEnum'), ('WinRM', 'WinRM'), ('SCardSvr', 'SCardSvr'), ('PhoneSvc', 'PhoneSvc'), ('RemoteRegistry', 'RemoteRegistry'), ('DiagTrack', 'DiagTrack'), ('dmwappushservice', 'dmwappushservice'), ('DcpSvc', 'DcpSvc'), ('WerSvc', 'WerSvc'), ('PcaSvc', 'PcaSvc'), ('DoSvc', 'DoSvc'), ('WMPNetworkSvc', 'WMPNetworkSvc')))
+                  LIST_EXTEND              1
+                  STORE_FAST               0 (service_commands)
+    
+    223           LOAD_FAST                0 (service_commands)
+                  GET_ITER
+          L1:     FOR_ITER               136 (to L2)
+                  UNPACK_SEQUENCE          2
+                  STORE_FAST_STORE_FAST   18 (service, display_name)
+    
+    224           LOAD_GLOBAL              6 (subprocess)
+                  LOAD_ATTR                8 (run)
+                  PUSH_NULL
+                  LOAD_CONST               5 ('sc stop ')
+                  LOAD_FAST                1 (service)
+                  FORMAT_SIMPLE
+                  BUILD_STRING             2
+                  LOAD_CONST               6 (True)
+                  LOAD_GLOBAL              6 (subprocess)
+                  LOAD_ATTR               10 (PIPE)
+                  LOAD_GLOBAL              6 (subprocess)
+                  LOAD_ATTR               10 (PIPE)
+                  LOAD_CONST               7 (('shell', 'stdout', 'stderr'))
+                  CALL_KW                  4
+                  POP_TOP
+    
+    225           LOAD_GLOBAL              6 (subprocess)
+                  LOAD_ATTR                8 (run)
+                  PUSH_NULL
+                  LOAD_CONST               8 ('sc config "')
+                  LOAD_FAST                1 (service)
+                  FORMAT_SIMPLE
+                  LOAD_CONST               9 ('" start= disabled')
+                  BUILD_STRING             3
+                  LOAD_CONST               6 (True)
+                  LOAD_GLOBAL              6 (subprocess)
+                  LOAD_ATTR               10 (PIPE)
+                  LOAD_GLOBAL              6 (subprocess)
+                  LOAD_ATTR               10 (PIPE)
+                  LOAD_CONST               7 (('shell', 'stdout', 'stderr'))
+                  CALL_KW                  4
+                  POP_TOP
+    
+    226           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL             12 (GREEN)
+                  LOAD_CONST              10 ('Служба ')
+                  LOAD_FAST                2 (display_name)
+                  FORMAT_SIMPLE
+                  LOAD_CONST              11 (' отключена и настроена на отключение.')
+                  BUILD_STRING             3
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+                  JUMP_BACKWARD          138 (to L1)
+    
+    223   L2:     END_FOR
+                  POP_TOP
+    
+    228           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    229           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL             14 (RESET)
+                  LOAD_CONST              12 ('Успешно')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+    230           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    231           LOAD_GLOBAL             16 (time)
+                  LOAD_ATTR               18 (sleep)
+                  PUSH_NULL
+                  LOAD_CONST              13 (2)
+                  CALL                     1
+                  POP_TOP
+    
+    232           LOAD_GLOBAL             21 (main + NULL)
+                  CALL                     0
+                  POP_TOP
+                  RETURN_CONST             0 (None)
+    
+    Disassembly of <code object smartscreen at 0x00000221E78DB3E0, file "MIY TWEAK.py", line 234>:
+    234           RESUME                   0
+    
+    235           LOAD_GLOBAL              0 (os)
+                  LOAD_ATTR                2 (system)
+                  PUSH_NULL
+                  LOAD_CONST               1 ('cls')
+                  CALL                     1
+                  POP_TOP
+    
+    236           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    237           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               3 ('Отключение SmartScreen...')
+                  CALL                     1
+                  POP_TOP
+    
+    238           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL              6 (GREEN)
+                  LOAD_CONST               2 ('\n\n')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+    240           BUILD_LIST               0
+                  LOAD_CONST               4 (('Reg.exe add "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer" /v "SmartScreenEnabled" /t REG_SZ /d "off" /f', 'Reg.exe add "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\AppHost" /v "EnableWebContentEvaluation" /t REG_DWORD /d "0x0" /f', 'Reg.exe add "HKLM\\SOFTWARE\\Policies\\Microsoft\\MicrosoftEdge\\PhishingFilter" /v "EnabledV9" /t REG_DWORD /d "0x0" /f', 'Reg.exe add "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\System" /v "EnableSmartScreen" /t REG_DWORD /d "0x0" /f'))
+                  LIST_EXTEND              1
+                  STORE_FAST               0 (reg_commands2)
+    
+    247           LOAD_FAST                0 (reg_commands2)
+                  GET_ITER
+          L1:     FOR_ITER               100 (to L3)
+                  STORE_FAST               1 (command)
+    
+    248           LOAD_GLOBAL              8 (subprocess)
+                  LOAD_ATTR               10 (run)
+                  PUSH_NULL
+                  LOAD_FAST                1 (command)
+                  LOAD_CONST               5 (True)
+                  LOAD_GLOBAL              8 (subprocess)
+                  LOAD_ATTR               12 (PIPE)
+                  LOAD_GLOBAL              8 (subprocess)
+                  LOAD_ATTR               12 (PIPE)
+                  LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                  CALL_KW                  4
+                  STORE_FAST               2 (process)
+    
+    250           LOAD_FAST                2 (process)
+                  LOAD_ATTR               14 (returncode)
+                  LOAD_CONST               7 (0)
+                  COMPARE_OP              88 (bool(==))
+                  POP_JUMP_IF_FALSE       16 (to L2)
+    
+    251           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               8 ('Команда выполнена: ')
+                  LOAD_FAST                1 (command)
+                  FORMAT_SIMPLE
+                  BUILD_STRING             2
+                  CALL                     1
+                  POP_TOP
+                  JUMP_BACKWARD           86 (to L1)
+    
+    253   L2:     LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               9 ('Ошибка при выполнении команды: ')
+                  LOAD_FAST                1 (command)
+                  FORMAT_SIMPLE
+                  BUILD_STRING             2
+                  CALL                     1
+                  POP_TOP
+                  JUMP_BACKWARD          102 (to L1)
+    
+    247   L3:     END_FOR
+                  POP_TOP
+    
+    255           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    256           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL             16 (RESET)
+                  LOAD_CONST              10 ('Успешно')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+    257           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    258           LOAD_GLOBAL             18 (time)
+                  LOAD_ATTR               20 (sleep)
+                  PUSH_NULL
+                  LOAD_CONST              11 (2)
+                  CALL                     1
+                  POP_TOP
+    
+    259           LOAD_GLOBAL             23 (main + NULL)
+                  CALL                     0
+                  POP_TOP
+                  RETURN_CONST             0 (None)
+    
+    Disassembly of <code object telemetry at 0x00000221E78F1330, file "MIY TWEAK.py", line 261>:
+    261           RESUME                   0
+    
+    262           LOAD_GLOBAL              0 (os)
+                  LOAD_ATTR                2 (system)
+                  PUSH_NULL
+                  LOAD_CONST               1 ('cls')
+                  CALL                     1
+                  POP_TOP
+    
+    263           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    264           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               3 ('Отключение телеметрии')
+                  CALL                     1
+                  POP_TOP
+    
+    265           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL              6 (GREEN)
+                  LOAD_CONST               2 ('\n\n')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+    266           BUILD_LIST               0
+                  LOAD_CONST               4 (('netsh advfirewall firewall add rule name="telemetry_watson.telemetry.microsoft.com" dir=out action=block remoteip=65.55.252.43,65.52.108.29 enable=yes', 'PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList \'-NoProfile -ExecutionPolicy Bypass -File ""%~dp0.\\ms_new.ps1""\' -Verb RunAs}"', 'reg add "HKLM\\SYSTEM\\ControlSet001\\Control\\WMI\\AutoLogger\\AutoLogger-Diagtrack-Listener" /v "Start" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DataCollection" /v AllowTelemetry /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SYSTEM\\CurrentControlSet\\Services\\diagnosticshun.standardcollector.service" /v "Start" /t REG_DWORD /d 4 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\Personalization\\Settings" /v "AcceptedPrivacyPolicy" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SYSTEM\\CurrentControlSet\\Control\\WMI\\AutoLogger\\AutoLogger-Diagtrack-Listener" /v "Start" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SYSTEM\\CurrentControlSet\\Control\\WMI\\AutoLogger\\SQMLogger" /v "Start" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\AppCompat" /v "AITEnable" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\AppCompat" /v "DisableUAR" /t REG_DWORD /d 1 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\InputPersonalization" /v "RestrictImplicitInkCollection" /t REG_DWORD /d 1 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\InputPersonalization" /v "RestrictImplicitInkCollection" /t REG_DWORD /d 1 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\InputPersonalization\\TrainedDataStore" /v "HarvestContacts" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\TabledPC" /v "PreventHandwritingdataSharing" /t REG_DWORD /d 1 /f', 'reg add "HKLM\\SOFTWARE\\Policies\\Microsoft\\SQMClient\\Windows" /v "CEIPEnable" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SOFTWARE\\Policies\\Microsoft\\SQMClient" /v "CorporateSQMURL" /t REG_SZ /d "0.0.0.0" /f', 'reg add "HKCU\\SOFTWARE\\Policies\\Microsoft\\Office\\16.0\\osm" /v "Enablelogging" /t REG_DWORD /d 0 /f', 'reg add "HKCU\\SOFTWARE\\Policies\\Microsoft\\Office\\16.0\\osm" /v "EnableUpload" /t REG_DWORD /d 0 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\MediaPlayer\\Preferences" /v "UsageTracking" /t REG_DWORD /d 0 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\Siuf\\Rules" /v "NumberOfSIUFInPeriod" /t REG_DWORD /d 0 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\Siuf\\Rules" /v "PeriodInNanoSeconds" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DataCollection" /v "DoNotShowFeedbackNotifications" /t REG_DWORD /d 1 /f', 'reg add "HKCU\\SOFTWARE\\Policies\\Microsoft\\Assistance\\Client\\1.0" /v "NoExplicitFeedback" /t REG_DWORD /d 1 /f', 'reg add "HKLM\\SOFTWARE\\Microsoft\\Input\\TIPC" /v "Enabled" /t REG_DWORD /d 0 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\Input\\TIPC" /v "Enabled" /t REG_DWORD /d 0 /f'))
+                  LIST_EXTEND              1
+                  STORE_FAST               0 (telemetry_commands)
+    
+    293           LOAD_FAST                0 (telemetry_commands)
+                  GET_ITER
+          L1:     FOR_ITER               100 (to L3)
+                  STORE_FAST               1 (command)
+    
+    294           LOAD_GLOBAL              8 (subprocess)
+                  LOAD_ATTR               10 (run)
+                  PUSH_NULL
+                  LOAD_FAST                1 (command)
+                  LOAD_CONST               5 (True)
+                  LOAD_GLOBAL              8 (subprocess)
+                  LOAD_ATTR               12 (PIPE)
+                  LOAD_GLOBAL              8 (subprocess)
+                  LOAD_ATTR               12 (PIPE)
+                  LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                  CALL_KW                  4
+                  STORE_FAST               2 (process)
+    
+    296           LOAD_FAST                2 (process)
+                  LOAD_ATTR               14 (returncode)
+                  LOAD_CONST               7 (0)
+                  COMPARE_OP              88 (bool(==))
+                  POP_JUMP_IF_FALSE       16 (to L2)
+    
+    297           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               8 ('Команда выполнена: ')
+                  LOAD_FAST                1 (command)
+                  FORMAT_SIMPLE
+                  BUILD_STRING             2
+                  CALL                     1
+                  POP_TOP
+                  JUMP_BACKWARD           86 (to L1)
+    
+    299   L2:     LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               9 ('Ошибка при выполнении команды: ')
+                  LOAD_FAST                1 (command)
+                  FORMAT_SIMPLE
+                  BUILD_STRING             2
+                  CALL                     1
+                  POP_TOP
+                  JUMP_BACKWARD          102 (to L1)
+    
+    293   L3:     END_FOR
+                  POP_TOP
+    
+    301           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    302           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL             16 (RESET)
+                  LOAD_CONST              10 ('Успешно')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+    303           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    304           LOAD_GLOBAL             18 (time)
+                  LOAD_ATTR               20 (sleep)
+                  PUSH_NULL
+                  LOAD_CONST              11 (2)
+                  CALL                     1
+                  POP_TOP
+    
+    305           LOAD_GLOBAL             23 (main + NULL)
+                  CALL                     0
+                  POP_TOP
+                  RETURN_CONST             0 (None)
+    
+    Disassembly of <code object bcdedit_tweaks at 0x00000221E78F15F0, file "MIY TWEAK.py", line 307>:
+     307            RESUME                   0
+    
+     308            LOAD_GLOBAL              0 (os)
+                    LOAD_ATTR                2 (system)
+                    PUSH_NULL
+                    LOAD_CONST               1 ('cls')
+                    CALL                     1
+                    POP_TOP
+    
+     309            LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+    
+     310            LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               3 ('Повышение производительности...')
+                    CALL                     1
+                    POP_TOP
+    
+     311            LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL              6 (GREEN)
+                    LOAD_CONST               2 ('\n\n')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+    
+     313            LOAD_CONST               4 ('bcdedit -set disabledynamictick yes')
+    
+     314            LOAD_CONST               5 ('bcdedit -set useplatformtick yes')
+    
+     312            BUILD_LIST               2
+                    STORE_FAST               0 (bcdedit_commands)
+    
+     317            LOAD_FAST                0 (bcdedit_commands)
+                    GET_ITER
+            L1:     FOR_ITER                55 (to L4)
+                    STORE_FAST               1 (command)
+    
+     318            NOP
+    
+     319    L2:     LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               6 ('Выполняется ')
+                    LOAD_FAST                1 (command)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    CALL                     1
+                    POP_TOP
+    
+     320            LOAD_GLOBAL              8 (subprocess)
+                    LOAD_ATTR               10 (run)
+                    PUSH_NULL
+                    LOAD_FAST                1 (command)
+                    LOAD_CONST               7 (True)
+                    LOAD_CONST               7 (True)
+                    LOAD_CONST               8 (('check', 'shell'))
+                    CALL_KW                  3
+                    POP_TOP
+    
+     321            LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               9 ('Команда ')
+                    LOAD_FAST                1 (command)
+                    FORMAT_SIMPLE
+                    LOAD_CONST              10 (' выполнена успешно.')
+                    BUILD_STRING             3
+                    CALL                     1
+                    POP_TOP
+            L3:     JUMP_BACKWARD           57 (to L1)
+    
+     317    L4:     END_FOR
+                    POP_TOP
+    
+     325            LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+    
+     326            LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL             14 (RESET)
+                    LOAD_CONST              13 ('Успешно')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+    
+     327            LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+    
+     328            LOAD_GLOBAL             16 (time)
+                    LOAD_ATTR               18 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST              14 (2)
+                    CALL                     1
+                    POP_TOP
+    
+     329            LOAD_GLOBAL             21 (main + NULL)
+                    CALL                     0
+                    POP_TOP
+                    RETURN_CONST             0 (None)
+    
+      --    L5:     PUSH_EXC_INFO
+    
+     322            LOAD_GLOBAL              8 (subprocess)
+                    LOAD_ATTR               12 (CalledProcessError)
+                    CHECK_EXC_MATCH
+                    POP_JUMP_IF_FALSE       28 (to L9)
+                    STORE_FAST               2 (e)
+    
+     323    L6:     LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST              11 ('Ошибка при выполнении команды ')
+                    LOAD_FAST                1 (command)
+                    FORMAT_SIMPLE
+                    LOAD_CONST              12 (': ')
+                    LOAD_FAST                2 (e)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             4
+                    CALL                     1
+                    POP_TOP
+            L7:     POP_EXCEPT
+                    LOAD_CONST               0 (None)
+                    STORE_FAST               2 (e)
+                    DELETE_FAST              2 (e)
+                    JUMP_BACKWARD          175 (to L1)
+    
+      --    L8:     LOAD_CONST               0 (None)
+                    STORE_FAST               2 (e)
+                    DELETE_FAST              2 (e)
+                    RERAISE                  1
+    
+     322    L9:     RERAISE                  0
+    
+      --   L10:     COPY                     3
+                    POP_EXCEPT
+                    RERAISE                  1
+    ExceptionTable:
+      L2 to L3 -> L5 [1]
+      L5 to L6 -> L10 [2] lasti
+      L6 to L7 -> L8 [2] lasti
+      L8 to L10 -> L10 [2] lasti
+    
+    Disassembly of <code object optimize_internet2 at 0x00000221E78DE4B0, file "MIY TWEAK.py", line 331>:
+    331           RESUME                   0
+    
+    332           LOAD_GLOBAL              0 (os)
+                  LOAD_ATTR                2 (system)
+                  PUSH_NULL
+                  LOAD_CONST               1 ('cls')
+                  CALL                     1
+                  POP_TOP
+    
+    333           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    334           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               3 ('Оптимизация сетевых параметров...')
+                  CALL                     1
+                  POP_TOP
+    
+    335           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL              6 (GREEN)
+                  LOAD_CONST               2 ('\n\n')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+    337           BUILD_LIST               0
+                  LOAD_CONST               4 (('netsh int tcp set global autotuninglevel=normal', 'netsh interface 6to4 set state disabled', 'netsh int isatap set state disable', 'netsh int tcp set global timestamps=disabled', 'netsh int tcp set heuristics disabled', 'int tcp set global chimney=disabled', 'netsh int tcp set global ecncapability=disabled', 'netsh int tcp set global rsc=disabled', 'netsh int tcp set global nonsackrttresiliency=disabled', 'netsh int tcp set security mpp=disabled', 'netsh int tcp set security profiles=disabled', 'netsh int ip set global icmpredirects=disabled', 'netsh int tcp set security mpp=disabled profiles=disabled', 'netsh int ip set global multicastforwarding=disabled', 'netsh int tcp set supplemental internet congestionprovider=ctcp', 'netsh interface teredo set state disabled', 'netsh winsock reset', 'netsh int isatap set state disable', 'netsh int ip set global taskoffload=disabled', 'netsh int ip set global neighborcachelimit=4096', 'netsh int tcp set global dca=enabled', 'netsh int tcp set global netdma=enabled'))
+                  LIST_EXTEND              1
+                  STORE_FAST               0 (netsh_commands2)
+    
+    362           LOAD_FAST                0 (netsh_commands2)
+                  GET_ITER
+          L1:     FOR_ITER                65 (to L2)
+                  STORE_FAST               1 (command)
+    
+    363           LOAD_GLOBAL              8 (subprocess)
+                  LOAD_ATTR               10 (run)
+                  PUSH_NULL
+                  LOAD_FAST                1 (command)
+                  LOAD_CONST               5 (True)
+                  LOAD_GLOBAL              8 (subprocess)
+                  LOAD_ATTR               12 (PIPE)
+                  LOAD_GLOBAL              8 (subprocess)
+                  LOAD_ATTR               12 (PIPE)
+                  LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                  CALL_KW                  4
+                  POP_TOP
+    
+    364           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               7 ('Команда выполнена')
+                  CALL                     1
+                  POP_TOP
+                  JUMP_BACKWARD           67 (to L1)
+    
+    362   L2:     END_FOR
+                  POP_TOP
+    
+    366           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    367           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_GLOBAL             14 (RESET)
+                  LOAD_CONST               8 ('Успешно')
+                  BINARY_OP                0 (+)
+                  CALL                     1
+                  POP_TOP
+    
+    368           LOAD_GLOBAL              5 (print + NULL)
+                  LOAD_CONST               2 ('\n\n')
+                  CALL                     1
+                  POP_TOP
+    
+    369           LOAD_GLOBAL             16 (time)
+                  LOAD_ATTR               18 (sleep)
+                  PUSH_NULL
+                  LOAD_CONST               9 (2)
+                  CALL                     1
+                  POP_TOP
+    
+    370           LOAD_GLOBAL             21 (main + NULL)
+                  CALL                     0
+                  POP_TOP
+                  RETURN_CONST             0 (None)
+    
+    Disassembly of <code object clear_event_logs at 0x00000221E78F1B20, file "MIY TWEAK.py", line 372>:
+     372            RESUME                   0
+    
+     373            LOAD_GLOBAL              0 (os)
+                    LOAD_ATTR                2 (system)
+                    PUSH_NULL
+                    LOAD_CONST               1 ('cls')
+                    CALL                     1
+                    POP_TOP
+    
+     374            NOP
+    
+     375    L1:     LOAD_GLOBAL              4 (subprocess)
+                    LOAD_ATTR                6 (check_output)
+                    PUSH_NULL
+                    LOAD_CONST               2 ('wevtutil enum-logs')
+                    LOAD_CONST               3 (True)
+                    LOAD_CONST               3 (True)
+                    LOAD_CONST               4 (('shell', 'text'))
+                    CALL_KW                  3
+                    STORE_FAST               0 (logs)
+    
+     376            LOAD_FAST                0 (logs)
+                    LOAD_ATTR                9 (splitlines + NULL|self)
+                    CALL                     0
+                    STORE_FAST               0 (logs)
+    
+     377            LOAD_FAST                0 (logs)
+                    GET_ITER
+            L2:     FOR_ITER                73 (to L5)
+                    STORE_FAST               1 (log)
+    
+     378            LOAD_FAST                1 (log)
+                    LOAD_ATTR               11 (strip + NULL|self)
+                    CALL                     0
+                    STORE_FAST               1 (log)
+    
+     379            LOAD_FAST                1 (log)
+                    TO_BOOL
+            L3:     POP_JUMP_IF_TRUE         2 (to L4)
+                    JUMP_BACKWARD           28 (to L2)
+    
+     380    L4:     LOAD_GLOBAL             13 (print + NULL)
+                    LOAD_GLOBAL             14 (GREEN)
+                    LOAD_CONST               5 ('Удаление: ')
+                    LOAD_FAST                1 (log)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+    
+     381            LOAD_GLOBAL              4 (subprocess)
+                    LOAD_ATTR               16 (run)
+                    PUSH_NULL
+                    LOAD_CONST               6 ('wevtutil clear-log ')
+                    LOAD_FAST                1 (log)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    LOAD_CONST               3 (True)
+                    LOAD_CONST               7 (('shell',))
+                    CALL_KW                  2
+                    POP_TOP
+                    JUMP_BACKWARD           75 (to L2)
+    
+     377    L5:     END_FOR
+                    POP_TOP
+    
+     382            LOAD_GLOBAL             13 (print + NULL)
+                    LOAD_CONST               8 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+    
+     383            LOAD_GLOBAL             13 (print + NULL)
+                    LOAD_GLOBAL             18 (RESET)
+                    LOAD_CONST               9 ('Все журналы событий очищены.')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+    
+     386    L6:     LOAD_GLOBAL             13 (print + NULL)
+                    LOAD_CONST               8 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+    
+     387            LOAD_GLOBAL             13 (print + NULL)
+                    LOAD_GLOBAL             18 (RESET)
+                    LOAD_CONST              11 ('Успешно')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+    
+     388            LOAD_GLOBAL             13 (print + NULL)
+                    LOAD_CONST               8 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+    
+     389            LOAD_GLOBAL             22 (time)
+                    LOAD_ATTR               24 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST              12 (2)
+                    CALL                     1
+                    POP_TOP
+    
+     390            LOAD_GLOBAL             27 (main + NULL)
+                    CALL                     0
+                    POP_TOP
+                    RETURN_CONST             0 (None)
+    
+      --    L7:     PUSH_EXC_INFO
+    
+     384            LOAD_GLOBAL             20 (Exception)
+                    CHECK_EXC_MATCH
+                    POP_JUMP_IF_FALSE       24 (to L11)
+                    STORE_FAST               2 (e)
+    
+     385    L8:     LOAD_GLOBAL             13 (print + NULL)
+                    LOAD_CONST              10 ('Ошибка при очистке журналов событий: ')
+                    LOAD_FAST                2 (e)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    CALL                     1
+                    POP_TOP
+            L9:     POP_EXCEPT
+                    LOAD_CONST               0 (None)
+                    STORE_FAST               2 (e)
+                    DELETE_FAST              2 (e)
+                    JUMP_BACKWARD_NO_INTERRUPT 102 (to L6)
+    
+      --   L10:     LOAD_CONST               0 (None)
+                    STORE_FAST               2 (e)
+                    DELETE_FAST              2 (e)
+                    RERAISE                  1
+    
+     384   L11:     RERAISE                  0
+    
+      --   L12:     COPY                     3
+                    POP_EXCEPT
+                    RERAISE                  1
+    ExceptionTable:
+      L1 to L3 -> L7 [0]
+      L4 to L6 -> L7 [0]
+      L7 to L8 -> L12 [1] lasti
+      L8 to L9 -> L10 [1] lasti
+      L10 to L12 -> L12 [1] lasti
+    
+    Disassembly of <code object delete_old_windows at 0x00000221E7902E90, file "MIY TWEAK.py", line 392>:
+     392            RESUME                   0
+    
+     393            LOAD_GLOBAL              0 (os)
+                    LOAD_ATTR                2 (system)
+                    PUSH_NULL
+                    LOAD_CONST               1 ('cls')
+                    CALL                     1
+                    POP_TOP
+    
+     394            LOAD_CONST               2 ('C:\\Windows.old')
+                    STORE_FAST               0 (windows_old_path)
+    
+     396            LOAD_GLOBAL              0 (os)
+                    LOAD_ATTR                4 (path)
+                    LOAD_ATTR                7 (exists + NULL|self)
+                    LOAD_FAST                0 (windows_old_path)
+                    CALL                     1
+                    TO_BOOL
+                    POP_JUMP_IF_FALSE       50 (to L3)
+    
+     397            NOP
+    
+     398    L1:     LOAD_GLOBAL              8 (shutil)
+                    LOAD_ATTR               10 (rmtree)
+                    PUSH_NULL
+                    LOAD_FAST                0 (windows_old_path)
+                    CALL                     1
+                    POP_TOP
+    
+     399            LOAD_GLOBAL             13 (print + NULL)
+                    LOAD_CONST               3 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+    
+     400            LOAD_GLOBAL             13 (print + NULL)
+                    LOAD_CONST               4 ('Папка ')
+                    LOAD_FAST                0 (windows_old_path)
+                    FORMAT_SIMPLE
+                    LOAD_CONST               5 (' успешно удалена.')
+                    BUILD_STRING             3
+                    CALL                     1
+                    POP_TOP
+            L2:     JUMP_FORWARD            26 (to L4)
+    
+     404    L3:     LOAD_GLOBAL             13 (print + NULL)
+                    LOAD_CONST               3 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+    
+     405            LOAD_GLOBAL             13 (print + NULL)
+                    LOAD_CONST               4 ('Папка ')
+                    LOAD_FAST                0 (windows_old_path)
+                    FORMAT_SIMPLE
+                    LOAD_CONST               7 (' не найдена.')
+                    BUILD_STRING             3
+                    CALL                     1
+                    POP_TOP
+    
+     406    L4:     LOAD_GLOBAL             13 (print + NULL)
+                    LOAD_CONST               3 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+    
+     407            LOAD_GLOBAL             16 (time)
+                    LOAD_ATTR               18 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST               8 (2)
+                    CALL                     1
+                    POP_TOP
+    
+     408            LOAD_GLOBAL             21 (main + NULL)
+                    CALL                     0
+                    POP_TOP
+                    RETURN_CONST             0 (None)
+    
+      --    L5:     PUSH_EXC_INFO
+    
+     401            LOAD_GLOBAL             14 (Exception)
+                    CHECK_EXC_MATCH
+                    POP_JUMP_IF_FALSE       24 (to L9)
+                    STORE_FAST               1 (e)
+    
+     402    L6:     LOAD_GLOBAL             13 (print + NULL)
+                    LOAD_CONST               6 ('Ошибка при удалении папки: ')
+                    LOAD_FAST                1 (e)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    CALL                     1
+                    POP_TOP
+            L7:     POP_EXCEPT
+                    LOAD_CONST               0 (None)
+                    STORE_FAST               1 (e)
+                    DELETE_FAST              1 (e)
+                    JUMP_BACKWARD_NO_INTERRUPT 73 (to L4)
+    
+      --    L8:     LOAD_CONST               0 (None)
+                    STORE_FAST               1 (e)
+                    DELETE_FAST              1 (e)
+                    RERAISE                  1
+    
+     401    L9:     RERAISE                  0
+    
+      --   L10:     COPY                     3
+                    POP_EXCEPT
+                    RERAISE                  1
+    ExceptionTable:
+      L1 to L2 -> L5 [0]
+      L5 to L6 -> L10 [1] lasti
+      L6 to L7 -> L8 [1] lasti
+      L8 to L10 -> L10 [1] lasti
+    
+    Disassembly of <code object menu at 0x00000221E7613B40, file "MIY TWEAK.py", line 412>:
+    412           RESUME                   0
+    
+    413           LOAD_GLOBAL              0 (os)
+                  LOAD_ATTR                2 (get_terminal_size)
+                  PUSH_NULL
+                  CALL                     0
+                  LOAD_ATTR                4 (columns)
+                  STORE_FAST               0 (console_width)
+    
+    414           BUILD_LIST               0
+                  LOAD_CONST               1 (('[1] Удаление мусорных файлов', '[2] Оптимизация параметров TCP/IP', '[3] Восстановление параметров TCP/IP', '[4] Отключение ненужных служб', '[5] Отключение SmartScreen', '[6] Отключение телеметрии', '[7] Отключение НРЕТ', '[8] Альтернативная настройка TCP/IP', '[9] Очистка логов Windows', '[10] Удаление файлов старой Windows', '[0] Exit'))
+                  LIST_EXTEND              1
+                  STORE_FAST               1 (menu)
+    
+    428           LOAD_FAST                1 (menu)
+                  GET_ITER
+          L1:     FOR_ITER                69 (to L2)
+                  STORE_FAST               2 (item)
+    
+    429           LOAD_FAST                2 (item)
+                  LOAD_ATTR                7 (center + NULL|self)
+                  LOAD_FAST                0 (console_width)
+                  LOAD_CONST               2 (2)
+                  BINARY_OP               10 (-)
+                  CALL                     1
+                  STORE_FAST               3 (miy_art)
+    
+    430           LOAD_GLOBAL              9 (print + NULL)
+                  LOAD_GLOBAL             10 (Colorate)
+                  LOAD_ATTR               12 (Horizontal)
+                  PUSH_NULL
+                  LOAD_GLOBAL             14 (Colors)
+                  LOAD_ATTR               16 (cyan_to_green)
+                  LOAD_FAST                3 (miy_art)
+                  CALL                     2
+                  CALL                     1
+                  POP_TOP
+                  JUMP_BACKWARD           71 (to L1)
+    
+    428   L2:     END_FOR
+                  POP_TOP
+                  RETURN_CONST             0 (None)
+    
+    Disassembly of <code object main at 0x00000221E78F2220, file "MIY TWEAK.py", line 433>:
+    433            RESUME                   0
+    
+    434            LOAD_GLOBAL              0 (os)
+                   LOAD_ATTR                2 (system)
+                   PUSH_NULL
+                   LOAD_CONST               1 ('cls')
+                   CALL                     1
+                   POP_TOP
+    
+    435            BUILD_LIST               0
+                   LOAD_CONST               2 (('███╗   ███╗██╗██╗   ██╗', '████╗ ████║██║╚██╗ ██╔╝', '██╔████╔██║██║ ╚████╔╝ ', '██║╚██╔╝██║██║   ██╔╝  ', '██║ ╚═╝ ██║██║   ██║   ', '╚═╝     ╚═╝╚═╝   ╚═╝   '))
+                   LIST_EXTEND              1
+                   STORE_FAST               0 (art)
+    
+    444            LOAD_GLOBAL              0 (os)
+                   LOAD_ATTR                4 (get_terminal_size)
+                   PUSH_NULL
+                   CALL                     0
+                   LOAD_ATTR                6 (columns)
+                   STORE_FAST               1 (console_width)
+    
+    445            LOAD_GLOBAL              9 (print + NULL)
+                   LOAD_CONST               3 ('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+                   CALL                     1
+                   POP_TOP
+    
+    447            LOAD_FAST                0 (art)
+                   GET_ITER
+           L1:     FOR_ITER                69 (to L2)
+                   STORE_FAST               2 (line)
+    
+    448            LOAD_FAST                2 (line)
+                   LOAD_ATTR               11 (center + NULL|self)
+                   LOAD_FAST                1 (console_width)
+                   LOAD_CONST               4 (2)
+                   BINARY_OP               10 (-)
+                   CALL                     1
+                   STORE_FAST               3 (centered_line)
+    
+    449            LOAD_GLOBAL              9 (print + NULL)
+                   LOAD_GLOBAL             12 (Colorate)
+                   LOAD_ATTR               14 (Horizontal)
+                   PUSH_NULL
+                   LOAD_GLOBAL             16 (Colors)
+                   LOAD_ATTR               18 (cyan_to_green)
+                   LOAD_FAST                3 (centered_line)
+                   CALL                     2
+                   CALL                     1
+                   POP_TOP
+                   JUMP_BACKWARD           71 (to L1)
+    
+    447    L2:     END_FOR
+                   POP_TOP
+    
+    451            LOAD_GLOBAL              9 (print + NULL)
+                   LOAD_CONST               5 ('\n')
+                   CALL                     1
+                   POP_TOP
+    
+    453            LOAD_GLOBAL             21 (menu + NULL)
+                   CALL                     0
+                   POP_TOP
+    
+    455            LOAD_GLOBAL              9 (print + NULL)
+                   LOAD_CONST               6 ('\n\n\n\n\n\n')
+                   CALL                     1
+                   POP_TOP
+    
+    456            LOAD_CONST               7 ('[?] Выберите команду: ')
+                   STORE_FAST               4 (vibor_gradient)
+    
+    457            LOAD_GLOBAL             12 (Colorate)
+                   LOAD_ATTR               14 (Horizontal)
+                   PUSH_NULL
+                   LOAD_GLOBAL             16 (Colors)
+                   LOAD_ATTR               22 (green_to_red)
+                   LOAD_FAST                4 (vibor_gradient)
+                   CALL                     2
+                   STORE_FAST               4 (vibor_gradient)
+    
+    458            LOAD_GLOBAL             25 (input + NULL)
+                   LOAD_FAST                4 (vibor_gradient)
+                   CALL                     1
+                   STORE_FAST               5 (choice)
+    
+    460            LOAD_FAST                5 (choice)
+                   LOAD_CONST               8 ('1')
+                   COMPARE_OP              88 (bool(==))
+                   POP_JUMP_IF_FALSE       11 (to L3)
+    
+    461            LOAD_GLOBAL             27 (musor + NULL)
+                   CALL                     0
+                   POP_TOP
+                   RETURN_CONST             0 (None)
+    
+    462    L3:     LOAD_FAST                5 (choice)
+                   LOAD_CONST               9 ('2')
+                   COMPARE_OP              88 (bool(==))
+                   POP_JUMP_IF_FALSE       11 (to L4)
+    
+    463            LOAD_GLOBAL             29 (optimize_internet + NULL)
+                   CALL                     0
+                   POP_TOP
+                   RETURN_CONST             0 (None)
+    
+    464    L4:     LOAD_FAST                5 (choice)
+                   LOAD_CONST              10 ('3')
+                   COMPARE_OP              88 (bool(==))
+                   POP_JUMP_IF_FALSE       11 (to L5)
+    
+    465            LOAD_GLOBAL             31 (reset_internet + NULL)
+                   CALL                     0
+                   POP_TOP
+                   RETURN_CONST             0 (None)
+    
+    466    L5:     LOAD_FAST                5 (choice)
+                   LOAD_CONST              11 ('4')
+                   COMPARE_OP              88 (bool(==))
+                   POP_JUMP_IF_FALSE       11 (to L6)
+    
+    467            LOAD_GLOBAL             33 (disable_services + NULL)
+                   CALL                     0
+                   POP_TOP
+                   RETURN_CONST             0 (None)
+    
+    468    L6:     LOAD_FAST                5 (choice)
+                   LOAD_CONST              12 ('5')
+                   COMPARE_OP              88 (bool(==))
+                   POP_JUMP_IF_FALSE       11 (to L7)
+    
+    469            LOAD_GLOBAL             35 (smartscreen + NULL)
+                   CALL                     0
+                   POP_TOP
+                   RETURN_CONST             0 (None)
+    
+    470    L7:     LOAD_FAST                5 (choice)
+                   LOAD_CONST              13 ('6')
+                   COMPARE_OP              88 (bool(==))
+                   POP_JUMP_IF_FALSE       11 (to L8)
+    
+    471            LOAD_GLOBAL             37 (telemetry + NULL)
+                   CALL                     0
+                   POP_TOP
+                   RETURN_CONST             0 (None)
+    
+    472    L8:     LOAD_FAST                5 (choice)
+                   LOAD_CONST              14 ('7')
+                   COMPARE_OP              88 (bool(==))
+                   POP_JUMP_IF_FALSE       11 (to L9)
+    
+    473            LOAD_GLOBAL             39 (bcdedit_tweaks + NULL)
+                   CALL                     0
+                   POP_TOP
+                   RETURN_CONST             0 (None)
+    
+    474    L9:     LOAD_FAST                5 (choice)
+                   LOAD_CONST              15 ('8')
+                   COMPARE_OP              88 (bool(==))
+                   POP_JUMP_IF_FALSE       11 (to L10)
+    
+    475            LOAD_GLOBAL             41 (optimize_internet2 + NULL)
+                   CALL                     0
+                   POP_TOP
+                   RETURN_CONST             0 (None)
+    
+    476   L10:     LOAD_FAST                5 (choice)
+                   LOAD_CONST              16 ('9')
+                   COMPARE_OP              88 (bool(==))
+                   POP_JUMP_IF_FALSE       11 (to L11)
+    
+    477            LOAD_GLOBAL             43 (clear_event_logs + NULL)
+                   CALL                     0
+                   POP_TOP
+                   RETURN_CONST             0 (None)
+    
+    478   L11:     LOAD_FAST                5 (choice)
+                   LOAD_CONST              17 ('10')
+                   COMPARE_OP              88 (bool(==))
+                   POP_JUMP_IF_FALSE       11 (to L12)
+    
+    479            LOAD_GLOBAL             45 (delete_old_windows + NULL)
+                   CALL                     0
+                   POP_TOP
+                   RETURN_CONST             0 (None)
+    
+    480   L12:     LOAD_FAST                5 (choice)
+                   LOAD_CONST              18 ('0')
+                   COMPARE_OP              88 (bool(==))
+                   POP_JUMP_IF_FALSE       11 (to L13)
+    
+    481            LOAD_GLOBAL             47 (exit + NULL)
+                   CALL                     0
+                   POP_TOP
+                   RETURN_CONST             0 (None)
+    
+    483   L13:     LOAD_GLOBAL              0 (os)
+                   LOAD_ATTR                2 (system)
+                   PUSH_NULL
+                   LOAD_CONST               1 ('cls')
+                   CALL                     1
+                   POP_TOP
+    
+    484            LOAD_GLOBAL              9 (print + NULL)
+                   LOAD_GLOBAL             48 (RED)
+                   LOAD_CONST              19 ('Нет такой команды')
+                   BINARY_OP                0 (+)
+                   CALL                     1
+                   POP_TOP
+    
+    485            LOAD_GLOBAL             50 (time)
+                   LOAD_ATTR               52 (sleep)
+                   PUSH_NULL
+                   LOAD_CONST               4 (2)
+                   CALL                     1
+                   POP_TOP
+    
+    486            LOAD_GLOBAL             55 (main + NULL)
+                   CALL                     0
+                   POP_TOP
+                   RETURN_CONST             0 (None)
+
+  ========================================================================
+  Code object: 'check_hwid'
+    filename: MIY TWEAK.py
+    firstlineno: 14
+    argcount: 0 (posonly: 0, kwonly: 0, nlocals: 4)
+    varnames: ('hwid_raw', 'hwid_hash', 'r', 'e')
+    names: ('subprocess', 'check_output', 'decode', 'split', 'strip', 'hashlib', 'sha256', 'encode', 'hexdigest', 'requests', 'get', 'text', 'print', 'time', 'sleep', 'os', '_exit', 'Exception')
+    consts (14):
+      [00] None
+      [01] 'wmic csproduct get uuid'
+      [02] '\n'
+      [03] 1
+      [04] 'https://pastebin.com/g6rVqTUa'
+      [05] 'Проверка...'
+      [06] 0.4
+      [07] 'Доступ разрешён.'
+      [08] 'Ключ не найден в базе данных, напишите в Discord: lucy_neo'
+      [09] 'Ключ доступа: '
+      [10] 60
+      [11] 0
+      [12] 'Ошибка соединения с базой данных: '
+      [13] 5
+
+    --- disassembly ---
+        14            RESUME                   0
+      
+        15            NOP
+      
+        16    L1:     LOAD_GLOBAL              0 (subprocess)
+                      LOAD_ATTR                2 (check_output)
+                      PUSH_NULL
+                      LOAD_CONST               1 ('wmic csproduct get uuid')
+                      CALL                     1
+                      LOAD_ATTR                5 (decode + NULL|self)
+                      CALL                     0
+                      LOAD_ATTR                7 (split + NULL|self)
+                      LOAD_CONST               2 ('\n')
+                      CALL                     1
+                      LOAD_CONST               3 (1)
+                      BINARY_SUBSCR
+                      LOAD_ATTR                9 (strip + NULL|self)
+                      CALL                     0
+                      STORE_FAST               0 (hwid_raw)
+      
+        17            LOAD_GLOBAL             10 (hashlib)
+                      LOAD_ATTR               12 (sha256)
+                      PUSH_NULL
+                      LOAD_FAST                0 (hwid_raw)
+                      LOAD_ATTR               15 (encode + NULL|self)
+                      CALL                     0
+                      CALL                     1
+                      LOAD_ATTR               17 (hexdigest + NULL|self)
+                      CALL                     0
+                      STORE_FAST               1 (hwid_hash)
+      
+        18            LOAD_GLOBAL             18 (requests)
+                      LOAD_ATTR               20 (get)
+                      PUSH_NULL
+                      LOAD_CONST               4 ('https://pastebin.com/g6rVqTUa')
+                      CALL                     1
+                      STORE_FAST               2 (r)
+      
+        19            LOAD_FAST_LOAD_FAST     18 (hwid_hash, r)
+                      LOAD_ATTR               22 (text)
+                      CONTAINS_OP              0
+                      POP_JUMP_IF_FALSE       67 (to L3)
+      
+        20            LOAD_GLOBAL             25 (print + NULL)
+                      LOAD_CONST               5 ('Проверка...')
+                      CALL                     1
+                      POP_TOP
+      
+        21            LOAD_GLOBAL             26 (time)
+                      LOAD_ATTR               28 (sleep)
+                      PUSH_NULL
+                      LOAD_CONST               6 (0.4)
+                      CALL                     1
+                      POP_TOP
+      
+        22            LOAD_GLOBAL             25 (print + NULL)
+                      LOAD_CONST               7 ('Доступ разрешён.')
+                      CALL                     1
+                      POP_TOP
+      
+        23            LOAD_GLOBAL             26 (time)
+                      LOAD_ATTR               28 (sleep)
+                      PUSH_NULL
+                      LOAD_CONST               3 (1)
+                      CALL                     1
+                      POP_TOP
+              L2:     RETURN_CONST             0 (None)
+      
+        25    L3:     LOAD_GLOBAL             25 (print + NULL)
+                      LOAD_CONST               5 ('Проверка...')
+                      CALL                     1
+                      POP_TOP
+      
+        26            LOAD_GLOBAL             26 (time)
+                      LOAD_ATTR               28 (sleep)
+                      PUSH_NULL
+                      LOAD_CONST               6 (0.4)
+                      CALL                     1
+                      POP_TOP
+      
+        27            LOAD_GLOBAL             25 (print + NULL)
+                      LOAD_CONST               8 ('Ключ не найден в базе данных, напишите в Discord: lucy_neo')
+                      CALL                     1
+                      POP_TOP
+      
+        28            LOAD_GLOBAL             25 (print + NULL)
+                      LOAD_CONST               9 ('Ключ доступа: ')
+                      LOAD_FAST                1 (hwid_hash)
+                      FORMAT_SIMPLE
+                      BUILD_STRING             2
+                      CALL                     1
+                      POP_TOP
+      
+        29            LOAD_GLOBAL             26 (time)
+                      LOAD_ATTR               28 (sleep)
+                      PUSH_NULL
+                      LOAD_CONST              10 (60)
+                      CALL                     1
+                      POP_TOP
+      
+        30            LOAD_GLOBAL             30 (os)
+                      LOAD_ATTR               32 (_exit)
+                      PUSH_NULL
+                      LOAD_CONST              11 (0)
+                      CALL                     1
+                      POP_TOP
+              L4:     RETURN_CONST             0 (None)
+      
+        --    L5:     PUSH_EXC_INFO
+      
+        31            LOAD_GLOBAL             34 (Exception)
+                      CHECK_EXC_MATCH
+                      POP_JUMP_IF_FALSE       68 (to L9)
+                      STORE_FAST               3 (e)
+      
+        32    L6:     LOAD_GLOBAL             25 (print + NULL)
+                      LOAD_CONST              12 ('Ошибка соединения с базой данных: ')
+                      LOAD_FAST                3 (e)
+                      FORMAT_SIMPLE
+                      BUILD_STRING             2
+                      CALL                     1
+                      POP_TOP
+      
+        33            LOAD_GLOBAL             26 (time)
+                      LOAD_ATTR               28 (sleep)
+                      PUSH_NULL
+                      LOAD_CONST              13 (5)
+                      CALL                     1
+                      POP_TOP
+      
+        34            LOAD_GLOBAL             30 (os)
+                      LOAD_ATTR               32 (_exit)
+                      PUSH_NULL
+                      LOAD_CONST              11 (0)
+                      CALL                     1
+                      POP_TOP
+              L7:     POP_EXCEPT
+                      LOAD_CONST               0 (None)
+                      STORE_FAST               3 (e)
+                      DELETE_FAST              3 (e)
+                      RETURN_CONST             0 (None)
+      
+        --    L8:     LOAD_CONST               0 (None)
+                      STORE_FAST               3 (e)
+                      DELETE_FAST              3 (e)
+                      RERAISE                  1
+      
+        31    L9:     RERAISE                  0
+      
+        --   L10:     COPY                     3
+                      POP_EXCEPT
+                      RERAISE                  1
+      ExceptionTable:
+        L1 to L2 -> L5 [0]
+        L3 to L4 -> L5 [0]
+        L5 to L6 -> L10 [1] lasti
+        L6 to L7 -> L8 [1] lasti
+        L8 to L10 -> L10 [1] lasti
+
+  ========================================================================
+  Code object: 'exit'
+    filename: MIY TWEAK.py
+    firstlineno: 37
+    argcount: 0 (posonly: 0, kwonly: 0, nlocals: 0)
+    varnames: ()
+    names: ('sys', 'exit')
+    consts (1):
+      [00] None
+
+    --- disassembly ---
+       37           RESUME                   0
+      
+       38           LOAD_GLOBAL              0 (sys)
+                    LOAD_ATTR                2 (exit)
+                    PUSH_NULL
+                    CALL                     0
+                    POP_TOP
+                    RETURN_CONST             0 (None)
+
+  ========================================================================
+  Code object: 'musor'
+    filename: MIY TWEAK.py
+    firstlineno: 40
+    argcount: 0 (posonly: 0, kwonly: 0, nlocals: 6)
+    varnames: ('reg_commands', 'command', 'file_commands', 'command_expanded', 'folder', 'result')
+    names: ('os', 'system', 'print', 'RESET', 'GREEN', 'subprocess', 'run', 'PIPE', 'path', 'expandvars', 'split', 'returncode', 'exists', 'time', 'sleep', 'main')
+    consts (17):
+      [00] None
+      [01] 'cls'
+      [02] '\n\n'
+      [03] 'Удаление ненужных файлов...'
+      [04] ('reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit" /va /f', 'reg delete "HKLM\\SOFTW...
+      [05] True
+      [06] ('shell', 'stdout', 'stderr')
+      [07] ('c:\\windows\\temp\\*.*', '%userprofile%\\Recent\\*.*', 'c:\\Windows\\Prefetch\\*.*', '%userprofile%\\AppData\\Local...
+      [08] '\\*'
+      [09] 0
+      [10] 'Удаление в: '
+      [11] 'del /s /f /q '
+      [12] 'Удалено'
+      [13] 'Путь: '
+      [14] 'rd /s /q '
+      [15] 'Успешно'
+      [16] 2
+
+    --- disassembly ---
+       40           RESUME                   0
+      
+       41           LOAD_GLOBAL              0 (os)
+                    LOAD_ATTR                2 (system)
+                    PUSH_NULL
+                    LOAD_CONST               1 ('cls')
+                    CALL                     1
+                    POP_TOP
+      
+       42           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL              6 (RESET)
+                    LOAD_CONST               2 ('\n\n')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+       43           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               3 ('Удаление ненужных файлов...')
+                    CALL                     1
+                    POP_TOP
+      
+       44           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL              8 (GREEN)
+                    LOAD_CONST               2 ('\n\n')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+       46           BUILD_LIST               0
+                    LOAD_CONST               4 (('reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit\\Favorites" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit\\Favorites" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\LastVisitedPidlMRU" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\LastVisitedPidlMRULegacy" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Paint\\Recent File List" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Applets\\Paint\\Recent File List" /va /f', 'reg delete "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Applets\\Wordpad\\Recent File List" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Map Network Drive MRU" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Map Network Drive MRU" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\Search Assistant\\ACMru" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RecentDocs" /va /f', 'reg delete "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RecentDocs" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\OpenSaveMRU" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\MediaPlayer\\Player\\RecentFileList" /va /f', 'reg delete "HKCU\\Software\\Microsoft\\MediaPlayer\\Player\\RecentURLList" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\MediaPlayer\\Player\\RecentFileList" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\MediaPlayer\\Player\\RecentURLList" /va /f', 'reg delete "HKCU\\SOFTWARE\\Microsoft\\Direct3D\\MostRecentApplication" /va /f', 'reg delete "HKLM\\SOFTWARE\\Microsoft\\Direct3D\\MostRecentApplication" /va /f', 'reg delete "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RunMRU" /va /f', 'reg delete "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\TypedPaths" /va /f'))
+                    LIST_EXTEND              1
+                    STORE_FAST               0 (reg_commands)
+      
+       72           LOAD_FAST                0 (reg_commands)
+                    GET_ITER
+            L1:     FOR_ITER                54 (to L2)
+                    STORE_FAST               1 (command)
+      
+       73           LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               12 (run)
+                    PUSH_NULL
+                    LOAD_FAST                1 (command)
+                    LOAD_CONST               5 (True)
+                    LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               14 (PIPE)
+                    LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               14 (PIPE)
+                    LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                    CALL_KW                  4
+                    POP_TOP
+                    JUMP_BACKWARD           56 (to L1)
+      
+       72   L2:     END_FOR
+                    POP_TOP
+      
+       75           BUILD_LIST               0
+                    LOAD_CONST               7 (('c:\\windows\\temp\\*.*', '%userprofile%\\Recent\\*.*', 'c:\\Windows\\Prefetch\\*.*', '%userprofile%\\AppData\\Local\\Temp\\*.*', '%userprofile%\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\*.*', '%TEMP%\\*', 'C:\\$Recycle.Bin\\*', 'C:\\Windows\\SoftwareDistribution\\Download\\*', 'C:\\Windows\\SoftwareDistribution\\DataStore\\*'))
+                    LIST_EXTEND              1
+                    STORE_FAST               2 (file_commands)
+      
+       87           LOAD_FAST                2 (file_commands)
+                    GET_ITER
+            L3:     EXTENDED_ARG             1
+                    FOR_ITER               267 (to L6)
+                    STORE_FAST               1 (command)
+      
+       88           LOAD_GLOBAL              0 (os)
+                    LOAD_ATTR               16 (path)
+                    LOAD_ATTR               19 (expandvars + NULL|self)
+                    LOAD_FAST                1 (command)
+                    CALL                     1
+                    STORE_FAST               3 (command_expanded)
+      
+       89           LOAD_FAST                3 (command_expanded)
+                    LOAD_ATTR               21 (split + NULL|self)
+                    LOAD_CONST               8 ('\\*')
+                    CALL                     1
+                    LOAD_CONST               9 (0)
+                    BINARY_SUBSCR
+                    STORE_FAST               4 (folder)
+      
+       90           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST              10 ('Удаление в: ')
+                    LOAD_FAST                4 (folder)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    CALL                     1
+                    POP_TOP
+      
+       91           LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               12 (run)
+                    PUSH_NULL
+                    LOAD_CONST              11 ('del /s /f /q ')
+                    LOAD_FAST                3 (command_expanded)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    LOAD_CONST               5 (True)
+                    LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               14 (PIPE)
+                    LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               14 (PIPE)
+                    LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                    CALL_KW                  4
+                    STORE_FAST               5 (result)
+      
+       93           LOAD_FAST                5 (result)
+                    LOAD_ATTR               22 (returncode)
+                    LOAD_CONST               9 (0)
+                    COMPARE_OP              88 (bool(==))
+                    POP_JUMP_IF_FALSE       11 (to L4)
+      
+       94           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST              12 ('Удалено')
+                    CALL                     1
+                    POP_TOP
+      
+       96   L4:     LOAD_GLOBAL              0 (os)
+                    LOAD_ATTR               16 (path)
+                    LOAD_ATTR               25 (exists + NULL|self)
+                    LOAD_FAST                4 (folder)
+                    CALL                     1
+                    TO_BOOL
+                    POP_JUMP_IF_TRUE         2 (to L5)
+                    JUMP_BACKWARD          188 (to L3)
+      
+       97   L5:     LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST              13 ('Путь: ')
+                    LOAD_FAST                4 (folder)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    CALL                     1
+                    POP_TOP
+      
+       98           LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               12 (run)
+                    PUSH_NULL
+                    LOAD_CONST              14 ('rd /s /q ')
+                    LOAD_FAST                4 (folder)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    LOAD_CONST               5 (True)
+                    LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               14 (PIPE)
+                    LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               14 (PIPE)
+                    LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                    CALL_KW                  4
+                    POP_TOP
+      
+       99           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST              12 ('Удалено')
+                    CALL                     1
+                    POP_TOP
+                    EXTENDED_ARG             1
+                    JUMP_BACKWARD          270 (to L3)
+      
+       87   L6:     END_FOR
+                    POP_TOP
+      
+      101           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      102           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL              6 (RESET)
+                    LOAD_CONST              15 ('Успешно')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+      103           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      104           LOAD_GLOBAL             26 (time)
+                    LOAD_ATTR               28 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST              16 (2)
+                    CALL                     1
+                    POP_TOP
+      
+      105           LOAD_GLOBAL             31 (main + NULL)
+                    CALL                     0
+                    POP_TOP
+                    RETURN_CONST             0 (None)
+
+  ========================================================================
+  Code object: 'reset_internet'
+    filename: MIY TWEAK.py
+    firstlineno: 107
+    argcount: 0 (posonly: 0, kwonly: 0, nlocals: 2)
+    varnames: ('netsh_commands', 'command')
+    names: ('os', 'system', 'print', 'RESET', 'GREEN', 'subprocess', 'run', 'PIPE', 'time', 'sleep', 'main')
+    consts (10):
+      [00] None
+      [01] 'cls'
+      [02] 'Сброс сетевых параметров...'
+      [03] '\n\n'
+      [04] ('netsh int ip reset global', 'netsh winsock reset', 'netsh int tcp reset', 'netsh int ip reset', 'netsh nap reset', ...
+      [05] True
+      [06] ('shell', 'stdout', 'stderr')
+      [07] 'Команда выполнена'
+      [08] 'Параметры TCP/IP успешно сброшены'
+      [09] 2
+
+    --- disassembly ---
+      107           RESUME                   0
+      
+      108           LOAD_GLOBAL              0 (os)
+                    LOAD_ATTR                2 (system)
+                    PUSH_NULL
+                    LOAD_CONST               1 ('cls')
+                    CALL                     1
+                    POP_TOP
+      
+      109           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL              6 (RESET)
+                    LOAD_CONST               2 ('Сброс сетевых параметров...')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+      110           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL              8 (GREEN)
+                    LOAD_CONST               3 ('\n\n')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+      112           BUILD_LIST               0
+                    LOAD_CONST               4 (('netsh int ip reset global', 'netsh winsock reset', 'netsh int tcp reset', 'netsh int ip reset', 'netsh nap reset', 'netsh rpc reset', 'netsh winhttp reset', 'netsh http flush', 'netsh routing reset', 'netsh int ipv4 reset', 'netsh int ipv6 reset', 'netsh int ip reset all', 'netsh winsock reset', 'netsh advfirewall reset', 'nbtstat -R', 'nbtstat -RR'))
+                    LIST_EXTEND              1
+                    STORE_FAST               0 (netsh_commands)
+      
+      131           LOAD_FAST                0 (netsh_commands)
+                    GET_ITER
+            L1:     FOR_ITER                65 (to L2)
+                    STORE_FAST               1 (command)
+      
+      132           LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               12 (run)
+                    PUSH_NULL
+                    LOAD_FAST                1 (command)
+                    LOAD_CONST               5 (True)
+                    LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               14 (PIPE)
+                    LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               14 (PIPE)
+                    LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                    CALL_KW                  4
+                    POP_TOP
+      
+      133           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               7 ('Команда выполнена')
+                    CALL                     1
+                    POP_TOP
+                    JUMP_BACKWARD           67 (to L1)
+      
+      131   L2:     END_FOR
+                    POP_TOP
+      
+      135           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               3 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      136           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL              6 (RESET)
+                    LOAD_CONST               8 ('Параметры TCP/IP успешно сброшены')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+      137           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               3 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      138           LOAD_GLOBAL             16 (time)
+                    LOAD_ATTR               18 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST               9 (2)
+                    CALL                     1
+                    POP_TOP
+      
+      139           LOAD_GLOBAL             21 (main + NULL)
+                    CALL                     0
+                    POP_TOP
+                    RETURN_CONST             0 (None)
+
+  ========================================================================
+  Code object: 'optimize_internet'
+    filename: MIY TWEAK.py
+    firstlineno: 141
+    argcount: 0 (posonly: 0, kwonly: 0, nlocals: 2)
+    varnames: ('netsh_commands', 'command')
+    names: ('os', 'system', 'print', 'RESET', 'GREEN', 'subprocess', 'run', 'PIPE', 'time', 'sleep', 'main')
+    consts (10):
+      [00] None
+      [01] 'cls'
+      [02] '\n\n'
+      [03] 'Оптимизация сетевых параметров...'
+      [04] ('netsh int tcp set global rsc=enabled', 'netsh int tcp set global ecncapability=disabled', 'netsh int tcp set global...
+      [05] True
+      [06] ('shell', 'stdout', 'stderr')
+      [07] 'Команда выполнена'
+      [08] 'Успешно'
+      [09] 2
+
+    --- disassembly ---
+      141           RESUME                   0
+      
+      142           LOAD_GLOBAL              0 (os)
+                    LOAD_ATTR                2 (system)
+                    PUSH_NULL
+                    LOAD_CONST               1 ('cls')
+                    CALL                     1
+                    POP_TOP
+      
+      143           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      144           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL              6 (RESET)
+                    LOAD_CONST               3 ('Оптимизация сетевых параметров...')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+      145           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL              8 (GREEN)
+                    LOAD_CONST               2 ('\n\n')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+      147           BUILD_LIST               0
+                    LOAD_CONST               4 (('netsh int tcp set global rsc=enabled', 'netsh int tcp set global ecncapability=disabled', 'netsh int tcp set global autotuninglevel=disabled', 'netsh int tcp set heuristics disabled', 'netsh int tcp set global chimney=disabled', 'netsh int tcp set global dca=enabled', 'netsh int tcp set global rss=enabled', 'netsh int tcp set global netdma=enabled', 'netsh int tcp set global congestionprovider=ctcp', 'netsh int tcp set global timestamps=disabled', 'netsh int tcp set global nonsackrttresiliency=disabled', 'netsh int tcp set supplemental template=custom icw=10'))
+                    LIST_EXTEND              1
+                    STORE_FAST               0 (netsh_commands)
+      
+      162           LOAD_FAST                0 (netsh_commands)
+                    GET_ITER
+            L1:     FOR_ITER                65 (to L2)
+                    STORE_FAST               1 (command)
+      
+      163           LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               12 (run)
+                    PUSH_NULL
+                    LOAD_FAST                1 (command)
+                    LOAD_CONST               5 (True)
+                    LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               14 (PIPE)
+                    LOAD_GLOBAL             10 (subprocess)
+                    LOAD_ATTR               14 (PIPE)
+                    LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                    CALL_KW                  4
+                    POP_TOP
+      
+      164           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               7 ('Команда выполнена')
+                    CALL                     1
+                    POP_TOP
+                    JUMP_BACKWARD           67 (to L1)
+      
+      162   L2:     END_FOR
+                    POP_TOP
+      
+      166           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      167           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL              6 (RESET)
+                    LOAD_CONST               8 ('Успешно')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+      168           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      169           LOAD_GLOBAL             16 (time)
+                    LOAD_ATTR               18 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST               9 (2)
+                    CALL                     1
+                    POP_TOP
+      
+      170           LOAD_GLOBAL             21 (main + NULL)
+                    CALL                     0
+                    POP_TOP
+                    RETURN_CONST             0 (None)
+
+  ========================================================================
+  Code object: 'disable_services'
+    filename: MIY TWEAK.py
+    firstlineno: 172
+    argcount: 0 (posonly: 0, kwonly: 0, nlocals: 3)
+    varnames: ('service_commands', 'service', 'display_name')
+    names: ('os', 'system', 'print', 'subprocess', 'run', 'PIPE', 'GREEN', 'RESET', 'time', 'sleep', 'main')
+    consts (14):
+      [00] None
+      [01] 'cls'
+      [02] '\n\n'
+      [03] 'Отключение и настройка служб...'
+      [04] (('Fax', 'Fax'), ('NetTcpPortSharing', 'NetTcpPortSharing'), ('workfolderssvc', 'workfolderssvc'), ('AJRouter', 'AJRo...
+      [05] 'sc stop '
+      [06] True
+      [07] ('shell', 'stdout', 'stderr')
+      [08] 'sc config "'
+      [09] '" start= disabled'
+      [10] 'Служба '
+      [11] ' отключена и настроена на отключение.'
+      [12] 'Успешно'
+      [13] 2
+
+    --- disassembly ---
+      172           RESUME                   0
+      
+      173           LOAD_GLOBAL              0 (os)
+                    LOAD_ATTR                2 (system)
+                    PUSH_NULL
+                    LOAD_CONST               1 ('cls')
+                    CALL                     1
+                    POP_TOP
+      
+      174           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      175           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               3 ('Отключение и настройка служб...')
+                    CALL                     1
+                    POP_TOP
+      
+      176           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      178           BUILD_LIST               0
+                    LOAD_CONST               4 ((('Fax', 'Fax'), ('NetTcpPortSharing', 'NetTcpPortSharing'), ('workfolderssvc', 'workfolderssvc'), ('AJRouter', 'AJRouter'), ('AppIDSvc', 'AppIDSvc'), ('BDESVC', 'BDESVC'), ('irmon', 'irmon'), ('vmicvmsession', 'vmicvmsession'), ('vmicrdv', 'vmicrdv'), ('lfsvc', 'lfsvc'), ('vmicshutdown', 'vmicshutdown'), ('vmicvss', 'vmicvss'), ('vmickvpexchange', 'vmickvpexchange'), ('vmicheartbeat', 'vmicheartbeat'), ('vmictimesync', 'vmictimesync'), ('HvHost', 'HvHost'), ('vmicguestinterface', 'vmicguestinterface'), ('SensorDataService', 'SensorDataService'), ('SensorService', 'SensorService'), ('SensrSvc', 'SensrSvc'), ('SEMgrSvc', 'SEMgrSvc'), ('RemoteAccess', 'RemoteAccess'), ('SessionEnv', 'SessionEnv'), ('SharedAccess', 'SharedAccess'), ('SCPolicySvc', 'SCPolicySvc'), ('CertPropSvc', 'CertPropSvc'), ('TermService', 'TermService'), ('TrkWks', 'TrkWks'), ('WpcMonSvc', 'WpcMonSvc'), ('FrameServer', 'FrameServer'), ('ScDeviceEnum', 'ScDeviceEnum'), ('WinRM', 'WinRM'), ('SCardSvr', 'SCardSvr'), ('PhoneSvc', 'PhoneSvc'), ('RemoteRegistry', 'RemoteRegistry'), ('DiagTrack', 'DiagTrack'), ('dmwappushservice', 'dmwappushservice'), ('DcpSvc', 'DcpSvc'), ('WerSvc', 'WerSvc'), ('PcaSvc', 'PcaSvc'), ('DoSvc', 'DoSvc'), ('WMPNetworkSvc', 'WMPNetworkSvc')))
+                    LIST_EXTEND              1
+                    STORE_FAST               0 (service_commands)
+      
+      223           LOAD_FAST                0 (service_commands)
+                    GET_ITER
+            L1:     FOR_ITER               136 (to L2)
+                    UNPACK_SEQUENCE          2
+                    STORE_FAST_STORE_FAST   18 (service, display_name)
+      
+      224           LOAD_GLOBAL              6 (subprocess)
+                    LOAD_ATTR                8 (run)
+                    PUSH_NULL
+                    LOAD_CONST               5 ('sc stop ')
+                    LOAD_FAST                1 (service)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    LOAD_CONST               6 (True)
+                    LOAD_GLOBAL              6 (subprocess)
+                    LOAD_ATTR               10 (PIPE)
+                    LOAD_GLOBAL              6 (subprocess)
+                    LOAD_ATTR               10 (PIPE)
+                    LOAD_CONST               7 (('shell', 'stdout', 'stderr'))
+                    CALL_KW                  4
+                    POP_TOP
+      
+      225           LOAD_GLOBAL              6 (subprocess)
+                    LOAD_ATTR                8 (run)
+                    PUSH_NULL
+                    LOAD_CONST               8 ('sc config "')
+                    LOAD_FAST                1 (service)
+                    FORMAT_SIMPLE
+                    LOAD_CONST               9 ('" start= disabled')
+                    BUILD_STRING             3
+                    LOAD_CONST               6 (True)
+                    LOAD_GLOBAL              6 (subprocess)
+                    LOAD_ATTR               10 (PIPE)
+                    LOAD_GLOBAL              6 (subprocess)
+                    LOAD_ATTR               10 (PIPE)
+                    LOAD_CONST               7 (('shell', 'stdout', 'stderr'))
+                    CALL_KW                  4
+                    POP_TOP
+      
+      226           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL             12 (GREEN)
+                    LOAD_CONST              10 ('Служба ')
+                    LOAD_FAST                2 (display_name)
+                    FORMAT_SIMPLE
+                    LOAD_CONST              11 (' отключена и настроена на отключение.')
+                    BUILD_STRING             3
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+                    JUMP_BACKWARD          138 (to L1)
+      
+      223   L2:     END_FOR
+                    POP_TOP
+      
+      228           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      229           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL             14 (RESET)
+                    LOAD_CONST              12 ('Успешно')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+      230           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      231           LOAD_GLOBAL             16 (time)
+                    LOAD_ATTR               18 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST              13 (2)
+                    CALL                     1
+                    POP_TOP
+      
+      232           LOAD_GLOBAL             21 (main + NULL)
+                    CALL                     0
+                    POP_TOP
+                    RETURN_CONST             0 (None)
+
+  ========================================================================
+  Code object: 'smartscreen'
+    filename: MIY TWEAK.py
+    firstlineno: 234
+    argcount: 0 (posonly: 0, kwonly: 0, nlocals: 3)
+    varnames: ('reg_commands2', 'command', 'process')
+    names: ('os', 'system', 'print', 'GREEN', 'subprocess', 'run', 'PIPE', 'returncode', 'RESET', 'time', 'sleep', 'main')
+    consts (12):
+      [00] None
+      [01] 'cls'
+      [02] '\n\n'
+      [03] 'Отключение SmartScreen...'
+      [04] ('Reg.exe add "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer" /v "SmartScreenEnabled" /t REG_SZ /d "of...
+      [05] True
+      [06] ('shell', 'stdout', 'stderr')
+      [07] 0
+      [08] 'Команда выполнена: '
+      [09] 'Ошибка при выполнении команды: '
+      [10] 'Успешно'
+      [11] 2
+
+    --- disassembly ---
+      234           RESUME                   0
+      
+      235           LOAD_GLOBAL              0 (os)
+                    LOAD_ATTR                2 (system)
+                    PUSH_NULL
+                    LOAD_CONST               1 ('cls')
+                    CALL                     1
+                    POP_TOP
+      
+      236           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      237           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               3 ('Отключение SmartScreen...')
+                    CALL                     1
+                    POP_TOP
+      
+      238           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL              6 (GREEN)
+                    LOAD_CONST               2 ('\n\n')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+      240           BUILD_LIST               0
+                    LOAD_CONST               4 (('Reg.exe add "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer" /v "SmartScreenEnabled" /t REG_SZ /d "off" /f', 'Reg.exe add "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\AppHost" /v "EnableWebContentEvaluation" /t REG_DWORD /d "0x0" /f', 'Reg.exe add "HKLM\\SOFTWARE\\Policies\\Microsoft\\MicrosoftEdge\\PhishingFilter" /v "EnabledV9" /t REG_DWORD /d "0x0" /f', 'Reg.exe add "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\System" /v "EnableSmartScreen" /t REG_DWORD /d "0x0" /f'))
+                    LIST_EXTEND              1
+                    STORE_FAST               0 (reg_commands2)
+      
+      247           LOAD_FAST                0 (reg_commands2)
+                    GET_ITER
+            L1:     FOR_ITER               100 (to L3)
+                    STORE_FAST               1 (command)
+      
+      248           LOAD_GLOBAL              8 (subprocess)
+                    LOAD_ATTR               10 (run)
+                    PUSH_NULL
+                    LOAD_FAST                1 (command)
+                    LOAD_CONST               5 (True)
+                    LOAD_GLOBAL              8 (subprocess)
+                    LOAD_ATTR               12 (PIPE)
+                    LOAD_GLOBAL              8 (subprocess)
+                    LOAD_ATTR               12 (PIPE)
+                    LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                    CALL_KW                  4
+                    STORE_FAST               2 (process)
+      
+      250           LOAD_FAST                2 (process)
+                    LOAD_ATTR               14 (returncode)
+                    LOAD_CONST               7 (0)
+                    COMPARE_OP              88 (bool(==))
+                    POP_JUMP_IF_FALSE       16 (to L2)
+      
+      251           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               8 ('Команда выполнена: ')
+                    LOAD_FAST                1 (command)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    CALL                     1
+                    POP_TOP
+                    JUMP_BACKWARD           86 (to L1)
+      
+      253   L2:     LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               9 ('Ошибка при выполнении команды: ')
+                    LOAD_FAST                1 (command)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    CALL                     1
+                    POP_TOP
+                    JUMP_BACKWARD          102 (to L1)
+      
+      247   L3:     END_FOR
+                    POP_TOP
+      
+      255           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      256           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL             16 (RESET)
+                    LOAD_CONST              10 ('Успешно')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+      257           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      258           LOAD_GLOBAL             18 (time)
+                    LOAD_ATTR               20 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST              11 (2)
+                    CALL                     1
+                    POP_TOP
+      
+      259           LOAD_GLOBAL             23 (main + NULL)
+                    CALL                     0
+                    POP_TOP
+                    RETURN_CONST             0 (None)
+
+  ========================================================================
+  Code object: 'telemetry'
+    filename: MIY TWEAK.py
+    firstlineno: 261
+    argcount: 0 (posonly: 0, kwonly: 0, nlocals: 3)
+    varnames: ('telemetry_commands', 'command', 'process')
+    names: ('os', 'system', 'print', 'GREEN', 'subprocess', 'run', 'PIPE', 'returncode', 'RESET', 'time', 'sleep', 'main')
+    consts (12):
+      [00] None
+      [01] 'cls'
+      [02] '\n\n'
+      [03] 'Отключение телеметрии'
+      [04] ('netsh advfirewall firewall add rule name="telemetry_watson.telemetry.microsoft.com" dir=out action=block remoteip=6...
+      [05] True
+      [06] ('shell', 'stdout', 'stderr')
+      [07] 0
+      [08] 'Команда выполнена: '
+      [09] 'Ошибка при выполнении команды: '
+      [10] 'Успешно'
+      [11] 2
+
+    --- disassembly ---
+      261           RESUME                   0
+      
+      262           LOAD_GLOBAL              0 (os)
+                    LOAD_ATTR                2 (system)
+                    PUSH_NULL
+                    LOAD_CONST               1 ('cls')
+                    CALL                     1
+                    POP_TOP
+      
+      263           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      264           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               3 ('Отключение телеметрии')
+                    CALL                     1
+                    POP_TOP
+      
+      265           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL              6 (GREEN)
+                    LOAD_CONST               2 ('\n\n')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+      266           BUILD_LIST               0
+                    LOAD_CONST               4 (('netsh advfirewall firewall add rule name="telemetry_watson.telemetry.microsoft.com" dir=out action=block remoteip=65.55.252.43,65.52.108.29 enable=yes', 'PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList \'-NoProfile -ExecutionPolicy Bypass -File ""%~dp0.\\ms_new.ps1""\' -Verb RunAs}"', 'reg add "HKLM\\SYSTEM\\ControlSet001\\Control\\WMI\\AutoLogger\\AutoLogger-Diagtrack-Listener" /v "Start" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DataCollection" /v AllowTelemetry /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SYSTEM\\CurrentControlSet\\Services\\diagnosticshun.standardcollector.service" /v "Start" /t REG_DWORD /d 4 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\Personalization\\Settings" /v "AcceptedPrivacyPolicy" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SYSTEM\\CurrentControlSet\\Control\\WMI\\AutoLogger\\AutoLogger-Diagtrack-Listener" /v "Start" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SYSTEM\\CurrentControlSet\\Control\\WMI\\AutoLogger\\SQMLogger" /v "Start" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\AppCompat" /v "AITEnable" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\AppCompat" /v "DisableUAR" /t REG_DWORD /d 1 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\InputPersonalization" /v "RestrictImplicitInkCollection" /t REG_DWORD /d 1 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\InputPersonalization" /v "RestrictImplicitInkCollection" /t REG_DWORD /d 1 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\InputPersonalization\\TrainedDataStore" /v "HarvestContacts" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\TabledPC" /v "PreventHandwritingdataSharing" /t REG_DWORD /d 1 /f', 'reg add "HKLM\\SOFTWARE\\Policies\\Microsoft\\SQMClient\\Windows" /v "CEIPEnable" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SOFTWARE\\Policies\\Microsoft\\SQMClient" /v "CorporateSQMURL" /t REG_SZ /d "0.0.0.0" /f', 'reg add "HKCU\\SOFTWARE\\Policies\\Microsoft\\Office\\16.0\\osm" /v "Enablelogging" /t REG_DWORD /d 0 /f', 'reg add "HKCU\\SOFTWARE\\Policies\\Microsoft\\Office\\16.0\\osm" /v "EnableUpload" /t REG_DWORD /d 0 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\MediaPlayer\\Preferences" /v "UsageTracking" /t REG_DWORD /d 0 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\Siuf\\Rules" /v "NumberOfSIUFInPeriod" /t REG_DWORD /d 0 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\Siuf\\Rules" /v "PeriodInNanoSeconds" /t REG_DWORD /d 0 /f', 'reg add "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DataCollection" /v "DoNotShowFeedbackNotifications" /t REG_DWORD /d 1 /f', 'reg add "HKCU\\SOFTWARE\\Policies\\Microsoft\\Assistance\\Client\\1.0" /v "NoExplicitFeedback" /t REG_DWORD /d 1 /f', 'reg add "HKLM\\SOFTWARE\\Microsoft\\Input\\TIPC" /v "Enabled" /t REG_DWORD /d 0 /f', 'reg add "HKCU\\SOFTWARE\\Microsoft\\Input\\TIPC" /v "Enabled" /t REG_DWORD /d 0 /f'))
+                    LIST_EXTEND              1
+                    STORE_FAST               0 (telemetry_commands)
+      
+      293           LOAD_FAST                0 (telemetry_commands)
+                    GET_ITER
+            L1:     FOR_ITER               100 (to L3)
+                    STORE_FAST               1 (command)
+      
+      294           LOAD_GLOBAL              8 (subprocess)
+                    LOAD_ATTR               10 (run)
+                    PUSH_NULL
+                    LOAD_FAST                1 (command)
+                    LOAD_CONST               5 (True)
+                    LOAD_GLOBAL              8 (subprocess)
+                    LOAD_ATTR               12 (PIPE)
+                    LOAD_GLOBAL              8 (subprocess)
+                    LOAD_ATTR               12 (PIPE)
+                    LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                    CALL_KW                  4
+                    STORE_FAST               2 (process)
+      
+      296           LOAD_FAST                2 (process)
+                    LOAD_ATTR               14 (returncode)
+                    LOAD_CONST               7 (0)
+                    COMPARE_OP              88 (bool(==))
+                    POP_JUMP_IF_FALSE       16 (to L2)
+      
+      297           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               8 ('Команда выполнена: ')
+                    LOAD_FAST                1 (command)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    CALL                     1
+                    POP_TOP
+                    JUMP_BACKWARD           86 (to L1)
+      
+      299   L2:     LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               9 ('Ошибка при выполнении команды: ')
+                    LOAD_FAST                1 (command)
+                    FORMAT_SIMPLE
+                    BUILD_STRING             2
+                    CALL                     1
+                    POP_TOP
+                    JUMP_BACKWARD          102 (to L1)
+      
+      293   L3:     END_FOR
+                    POP_TOP
+      
+      301           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      302           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL             16 (RESET)
+                    LOAD_CONST              10 ('Успешно')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+      303           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      304           LOAD_GLOBAL             18 (time)
+                    LOAD_ATTR               20 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST              11 (2)
+                    CALL                     1
+                    POP_TOP
+      
+      305           LOAD_GLOBAL             23 (main + NULL)
+                    CALL                     0
+                    POP_TOP
+                    RETURN_CONST             0 (None)
+
+  ========================================================================
+  Code object: 'bcdedit_tweaks'
+    filename: MIY TWEAK.py
+    firstlineno: 307
+    argcount: 0 (posonly: 0, kwonly: 0, nlocals: 3)
+    varnames: ('bcdedit_commands', 'command', 'e')
+    names: ('os', 'system', 'print', 'GREEN', 'subprocess', 'run', 'CalledProcessError', 'RESET', 'time', 'sleep', 'main')
+    consts (15):
+      [00] None
+      [01] 'cls'
+      [02] '\n\n'
+      [03] 'Повышение производительности...'
+      [04] 'bcdedit -set disabledynamictick yes'
+      [05] 'bcdedit -set useplatformtick yes'
+      [06] 'Выполняется '
+      [07] True
+      [08] ('check', 'shell')
+      [09] 'Команда '
+      [10] ' выполнена успешно.'
+      [11] 'Ошибка при выполнении команды '
+      [12] ': '
+      [13] 'Успешно'
+      [14] 2
+
+    --- disassembly ---
+       307            RESUME                   0
+      
+       308            LOAD_GLOBAL              0 (os)
+                      LOAD_ATTR                2 (system)
+                      PUSH_NULL
+                      LOAD_CONST               1 ('cls')
+                      CALL                     1
+                      POP_TOP
+      
+       309            LOAD_GLOBAL              5 (print + NULL)
+                      LOAD_CONST               2 ('\n\n')
+                      CALL                     1
+                      POP_TOP
+      
+       310            LOAD_GLOBAL              5 (print + NULL)
+                      LOAD_CONST               3 ('Повышение производительности...')
+                      CALL                     1
+                      POP_TOP
+      
+       311            LOAD_GLOBAL              5 (print + NULL)
+                      LOAD_GLOBAL              6 (GREEN)
+                      LOAD_CONST               2 ('\n\n')
+                      BINARY_OP                0 (+)
+                      CALL                     1
+                      POP_TOP
+      
+       313            LOAD_CONST               4 ('bcdedit -set disabledynamictick yes')
+      
+       314            LOAD_CONST               5 ('bcdedit -set useplatformtick yes')
+      
+       312            BUILD_LIST               2
+                      STORE_FAST               0 (bcdedit_commands)
+      
+       317            LOAD_FAST                0 (bcdedit_commands)
+                      GET_ITER
+              L1:     FOR_ITER                55 (to L4)
+                      STORE_FAST               1 (command)
+      
+       318            NOP
+      
+       319    L2:     LOAD_GLOBAL              5 (print + NULL)
+                      LOAD_CONST               6 ('Выполняется ')
+                      LOAD_FAST                1 (command)
+                      FORMAT_SIMPLE
+                      BUILD_STRING             2
+                      CALL                     1
+                      POP_TOP
+      
+       320            LOAD_GLOBAL              8 (subprocess)
+                      LOAD_ATTR               10 (run)
+                      PUSH_NULL
+                      LOAD_FAST                1 (command)
+                      LOAD_CONST               7 (True)
+                      LOAD_CONST               7 (True)
+                      LOAD_CONST               8 (('check', 'shell'))
+                      CALL_KW                  3
+                      POP_TOP
+      
+       321            LOAD_GLOBAL              5 (print + NULL)
+                      LOAD_CONST               9 ('Команда ')
+                      LOAD_FAST                1 (command)
+                      FORMAT_SIMPLE
+                      LOAD_CONST              10 (' выполнена успешно.')
+                      BUILD_STRING             3
+                      CALL                     1
+                      POP_TOP
+              L3:     JUMP_BACKWARD           57 (to L1)
+      
+       317    L4:     END_FOR
+                      POP_TOP
+      
+       325            LOAD_GLOBAL              5 (print + NULL)
+                      LOAD_CONST               2 ('\n\n')
+                      CALL                     1
+                      POP_TOP
+      
+       326            LOAD_GLOBAL              5 (print + NULL)
+                      LOAD_GLOBAL             14 (RESET)
+                      LOAD_CONST              13 ('Успешно')
+                      BINARY_OP                0 (+)
+                      CALL                     1
+                      POP_TOP
+      
+       327            LOAD_GLOBAL              5 (print + NULL)
+                      LOAD_CONST               2 ('\n\n')
+                      CALL                     1
+                      POP_TOP
+      
+       328            LOAD_GLOBAL             16 (time)
+                      LOAD_ATTR               18 (sleep)
+                      PUSH_NULL
+                      LOAD_CONST              14 (2)
+                      CALL                     1
+                      POP_TOP
+      
+       329            LOAD_GLOBAL             21 (main + NULL)
+                      CALL                     0
+                      POP_TOP
+                      RETURN_CONST             0 (None)
+      
+        --    L5:     PUSH_EXC_INFO
+      
+       322            LOAD_GLOBAL              8 (subprocess)
+                      LOAD_ATTR               12 (CalledProcessError)
+                      CHECK_EXC_MATCH
+                      POP_JUMP_IF_FALSE       28 (to L9)
+                      STORE_FAST               2 (e)
+      
+       323    L6:     LOAD_GLOBAL              5 (print + NULL)
+                      LOAD_CONST              11 ('Ошибка при выполнении команды ')
+                      LOAD_FAST                1 (command)
+                      FORMAT_SIMPLE
+                      LOAD_CONST              12 (': ')
+                      LOAD_FAST                2 (e)
+                      FORMAT_SIMPLE
+                      BUILD_STRING             4
+                      CALL                     1
+                      POP_TOP
+              L7:     POP_EXCEPT
+                      LOAD_CONST               0 (None)
+                      STORE_FAST               2 (e)
+                      DELETE_FAST              2 (e)
+                      JUMP_BACKWARD          175 (to L1)
+      
+        --    L8:     LOAD_CONST               0 (None)
+                      STORE_FAST               2 (e)
+                      DELETE_FAST              2 (e)
+                      RERAISE                  1
+      
+       322    L9:     RERAISE                  0
+      
+        --   L10:     COPY                     3
+                      POP_EXCEPT
+                      RERAISE                  1
+      ExceptionTable:
+        L2 to L3 -> L5 [1]
+        L5 to L6 -> L10 [2] lasti
+        L6 to L7 -> L8 [2] lasti
+        L8 to L10 -> L10 [2] lasti
+
+  ========================================================================
+  Code object: 'optimize_internet2'
+    filename: MIY TWEAK.py
+    firstlineno: 331
+    argcount: 0 (posonly: 0, kwonly: 0, nlocals: 2)
+    varnames: ('netsh_commands2', 'command')
+    names: ('os', 'system', 'print', 'GREEN', 'subprocess', 'run', 'PIPE', 'RESET', 'time', 'sleep', 'main')
+    consts (10):
+      [00] None
+      [01] 'cls'
+      [02] '\n\n'
+      [03] 'Оптимизация сетевых параметров...'
+      [04] ('netsh int tcp set global autotuninglevel=normal', 'netsh interface 6to4 set state disabled', 'netsh int isatap set ...
+      [05] True
+      [06] ('shell', 'stdout', 'stderr')
+      [07] 'Команда выполнена'
+      [08] 'Успешно'
+      [09] 2
+
+    --- disassembly ---
+      331           RESUME                   0
+      
+      332           LOAD_GLOBAL              0 (os)
+                    LOAD_ATTR                2 (system)
+                    PUSH_NULL
+                    LOAD_CONST               1 ('cls')
+                    CALL                     1
+                    POP_TOP
+      
+      333           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      334           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               3 ('Оптимизация сетевых параметров...')
+                    CALL                     1
+                    POP_TOP
+      
+      335           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL              6 (GREEN)
+                    LOAD_CONST               2 ('\n\n')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+      337           BUILD_LIST               0
+                    LOAD_CONST               4 (('netsh int tcp set global autotuninglevel=normal', 'netsh interface 6to4 set state disabled', 'netsh int isatap set state disable', 'netsh int tcp set global timestamps=disabled', 'netsh int tcp set heuristics disabled', 'int tcp set global chimney=disabled', 'netsh int tcp set global ecncapability=disabled', 'netsh int tcp set global rsc=disabled', 'netsh int tcp set global nonsackrttresiliency=disabled', 'netsh int tcp set security mpp=disabled', 'netsh int tcp set security profiles=disabled', 'netsh int ip set global icmpredirects=disabled', 'netsh int tcp set security mpp=disabled profiles=disabled', 'netsh int ip set global multicastforwarding=disabled', 'netsh int tcp set supplemental internet congestionprovider=ctcp', 'netsh interface teredo set state disabled', 'netsh winsock reset', 'netsh int isatap set state disable', 'netsh int ip set global taskoffload=disabled', 'netsh int ip set global neighborcachelimit=4096', 'netsh int tcp set global dca=enabled', 'netsh int tcp set global netdma=enabled'))
+                    LIST_EXTEND              1
+                    STORE_FAST               0 (netsh_commands2)
+      
+      362           LOAD_FAST                0 (netsh_commands2)
+                    GET_ITER
+            L1:     FOR_ITER                65 (to L2)
+                    STORE_FAST               1 (command)
+      
+      363           LOAD_GLOBAL              8 (subprocess)
+                    LOAD_ATTR               10 (run)
+                    PUSH_NULL
+                    LOAD_FAST                1 (command)
+                    LOAD_CONST               5 (True)
+                    LOAD_GLOBAL              8 (subprocess)
+                    LOAD_ATTR               12 (PIPE)
+                    LOAD_GLOBAL              8 (subprocess)
+                    LOAD_ATTR               12 (PIPE)
+                    LOAD_CONST               6 (('shell', 'stdout', 'stderr'))
+                    CALL_KW                  4
+                    POP_TOP
+      
+      364           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               7 ('Команда выполнена')
+                    CALL                     1
+                    POP_TOP
+                    JUMP_BACKWARD           67 (to L1)
+      
+      362   L2:     END_FOR
+                    POP_TOP
+      
+      366           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      367           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_GLOBAL             14 (RESET)
+                    LOAD_CONST               8 ('Успешно')
+                    BINARY_OP                0 (+)
+                    CALL                     1
+                    POP_TOP
+      
+      368           LOAD_GLOBAL              5 (print + NULL)
+                    LOAD_CONST               2 ('\n\n')
+                    CALL                     1
+                    POP_TOP
+      
+      369           LOAD_GLOBAL             16 (time)
+                    LOAD_ATTR               18 (sleep)
+                    PUSH_NULL
+                    LOAD_CONST               9 (2)
+                    CALL                     1
+                    POP_TOP
+      
+      370           LOAD_GLOBAL             21 (main + NULL)
+                    CALL                     0
+                    POP_TOP
+                    RETURN_CONST             0 (None)
+
+  ========================================================================
+  Code object: 'clear_event_logs'
+    filename: MIY TWEAK.py
+    firstlineno: 372
+    argcount: 0 (posonly: 0, kwonly: 0, nlocals: 3)
+    varnames: ('logs', 'log', 'e')
+    names: ('os', 'system', 'subprocess', 'check_output', 'splitlines', 'strip', 'print', 'GREEN', 'run', 'RESET', 'Exception', 'time', 'sleep', 'main')
+    consts (13):
+      [00] None
+      [01] 'cls'
+      [02] 'wevtutil enum-logs'
+      [03] True
+      [04] ('shell', 'text')
+      [05] 'Удаление: '
+      [06] 'wevtutil clear-log '
+      [07] ('shell',)
+      [08] '\n\n'
+      [09] 'Все журналы событий очищены.'
+      [10] 'Ошибка при очистке журналов событий: '
+      [11] 'Успешно'
+      [12] 2
+
+    --- disassembly ---
+       372            RESUME                   0
+      
+       373            LOAD_GLOBAL              0 (os)
+                      LOAD_ATTR                2 (system)
+                      PUSH_NULL
+                      LOAD_CONST               1 ('cls')
+                      CALL                     1
+                      POP_TOP
+      
+       374            NOP
+      
+       375    L1:     LOAD_GLOBAL              4 (subprocess)
+                      LOAD_ATTR                6 (check_output)
+                      PUSH_NULL
+                      LOAD_CONST               2 ('wevtutil enum-logs')
+                      LOAD_CONST               3 (True)
+                      LOAD_CONST               3 (True)
+                      LOAD_CONST               4 (('shell', 'text'))
+                      CALL_KW                  3
+                      STORE_FAST               0 (logs)
+      
+       376            LOAD_FAST                0 (logs)
+                      LOAD_ATTR                9 (splitlines + NULL|self)
+                      CALL                     0
+                      STORE_FAST               0 (logs)
+      
+       377            LOAD_FAST                0 (logs)
+                      GET_ITER
+              L2:     FOR_ITER                73 (to L5)
+                      STORE_FAST               1 (log)
+      
+       378            LOAD_FAST                1 (log)
+                      LOAD_ATTR               11 (strip + NULL|self)
+                      CALL                     0
+                      STORE_FAST               1 (log)
+      
+       379            LOAD_FAST                1 (log)
+                      TO_BOOL
+              L3:     POP_JUMP_IF_TRUE         2 (to L4)
+                      JUMP_BACKWARD           28 (to L2)
+      
+       380    L4:     LOAD_GLOBAL             13 (print + NULL)
+                      LOAD_GLOBAL             14 (GREEN)
+                      LOAD_CONST               5 ('Удаление: ')
+                      LOAD_FAST                1 (log)
+                      FORMAT_SIMPLE
+                      BUILD_STRING             2
+                      BINARY_OP                0 (+)
+                      CALL                     1
+                      POP_TOP
+      
+       381            LOAD_GLOBAL              4 (subprocess)
+                      LOAD_ATTR               16 (run)
+                      PUSH_NULL
+                      LOAD_CONST               6 ('wevtutil clear-log ')
+                      LOAD_FAST                1 (log)
+                      FORMAT_SIMPLE
+                      BUILD_STRING             2
+                      LOAD_CONST               3 (True)
+                      LOAD_CONST               7 (('shell',))
+                      CALL_KW                  2
+                      POP_TOP
+                      JUMP_BACKWARD           75 (to L2)
+      
+       377    L5:     END_FOR
+                      POP_TOP
+      
+       382            LOAD_GLOBAL             13 (print + NULL)
+                      LOAD_CONST               8 ('\n\n')
+                      CALL                     1
+                      POP_TOP
+      
+       383            LOAD_GLOBAL             13 (print + NULL)
+                      LOAD_GLOBAL             18 (RESET)
+                      LOAD_CONST               9 ('Все журналы событий очищены.')
+                      BINARY_OP                0 (+)
+                      CALL                     1
+                      POP_TOP
+      
+       386    L6:     LOAD_GLOBAL             13 (print + NULL)
+                      LOAD_CONST               8 ('\n\n')
+                      CALL                     1
+                      POP_TOP
+      
+       387            LOAD_GLOBAL             13 (print + NULL)
+                      LOAD_GLOBAL             18 (RESET)
+                      LOAD_CONST              11 ('Успешно')
+                      BINARY_OP                0 (+)
+                      CALL                     1
+                      POP_TOP
+      
+       388            LOAD_GLOBAL             13 (print + NULL)
+                      LOAD_CONST               8 ('\n\n')
+                      CALL                     1
+                      POP_TOP
+      
+       389            LOAD_GLOBAL             22 (time)
+                      LOAD_ATTR               24 (sleep)
+                      PUSH_NULL
+                      LOAD_CONST              12 (2)
+                      CALL                     1
+                      POP_TOP
+      
+       390            LOAD_GLOBAL             27 (main + NULL)
+                      CALL                     0
+                      POP_TOP
+                      RETURN_CONST             0 (None)
+      
+        --    L7:     PUSH_EXC_INFO
+      
+       384            LOAD_GLOBAL             20 (Exception)
+                      CHECK_EXC_MATCH
+                      POP_JUMP_IF_FALSE       24 (to L11)
+                      STORE_FAST               2 (e)
+      
+       385    L8:     LOAD_GLOBAL             13 (print + NULL)
+                      LOAD_CONST              10 ('Ошибка при очистке журналов событий: ')
+                      LOAD_FAST                2 (e)
+                      FORMAT_SIMPLE
+                      BUILD_STRING             2
+                      CALL                     1
+                      POP_TOP
+              L9:     POP_EXCEPT
+                      LOAD_CONST               0 (None)
+                      STORE_FAST               2 (e)
+                      DELETE_FAST              2 (e)
+                      JUMP_BACKWARD_NO_INTERRUPT 102 (to L6)
+      
+        --   L10:     LOAD_CONST               0 (None)
+                      STORE_FAST               2 (e)
+                      DELETE_FAST              2 (e)
+                      RERAISE                  1
+      
+       384   L11:     RERAISE                  0
+      
+        --   L12:     COPY                     3
+                      POP_EXCEPT
+                      RERAISE                  1
+      ExceptionTable:
+        L1 to L3 -> L7 [0]
+        L4 to L6 -> L7 [0]
+        L7 to L8 -> L12 [1] lasti
+        L8 to L9 -> L10 [1] lasti
+        L10 to L12 -> L12 [1] lasti
+
+  ========================================================================
+  Code object: 'delete_old_windows'
+    filename: MIY TWEAK.py
+    firstlineno: 392
+    argcount: 0 (posonly: 0, kwonly: 0, nlocals: 2)
+    varnames: ('windows_old_path', 'e')
+    names: ('os', 'system', 'path', 'exists', 'shutil', 'rmtree', 'print', 'Exception', 'time', 'sleep', 'main')
+    consts (9):
+      [00] None
+      [01] 'cls'
+      [02] 'C:\\Windows.old'
+      [03] '\n\n'
+      [04] 'Папка '
+      [05] ' успешно удалена.'
+      [06] 'Ошибка при удалении папки: '
+      [07] ' не найдена.'
+      [08] 2
+
+    --- disassembly ---
+       392            RESUME                   0
+      
+       393            LOAD_GLOBAL              0 (os)
+                      LOAD_ATTR                2 (system)
+                      PUSH_NULL
+                      LOAD_CONST               1 ('cls')
+                      CALL                     1
+                      POP_TOP
+      
+       394            LOAD_CONST               2 ('C:\\Windows.old')
+                      STORE_FAST               0 (windows_old_path)
+      
+       396            LOAD_GLOBAL              0 (os)
+                      LOAD_ATTR                4 (path)
+                      LOAD_ATTR                7 (exists + NULL|self)
+                      LOAD_FAST                0 (windows_old_path)
+                      CALL                     1
+                      TO_BOOL
+                      POP_JUMP_IF_FALSE       50 (to L3)
+      
+       397            NOP
+      
+       398    L1:     LOAD_GLOBAL              8 (shutil)
+                      LOAD_ATTR               10 (rmtree)
+                      PUSH_NULL
+                      LOAD_FAST                0 (windows_old_path)
+                      CALL                     1
+                      POP_TOP
+      
+       399            LOAD_GLOBAL             13 (print + NULL)
+                      LOAD_CONST               3 ('\n\n')
+                      CALL                     1
+                      POP_TOP
+      
+       400            LOAD_GLOBAL             13 (print + NULL)
+                      LOAD_CONST               4 ('Папка ')
+                      LOAD_FAST                0 (windows_old_path)
+                      FORMAT_SIMPLE
+                      LOAD_CONST               5 (' успешно удалена.')
+                      BUILD_STRING             3
+                      CALL                     1
+                      POP_TOP
+              L2:     JUMP_FORWARD            26 (to L4)
+      
+       404    L3:     LOAD_GLOBAL             13 (print + NULL)
+                      LOAD_CONST               3 ('\n\n')
+                      CALL                     1
+                      POP_TOP
+      
+       405            LOAD_GLOBAL             13 (print + NULL)
+                      LOAD_CONST               4 ('Папка ')
+                      LOAD_FAST                0 (windows_old_path)
+                      FORMAT_SIMPLE
+                      LOAD_CONST               7 (' не найдена.')
+                      BUILD_STRING             3
+                      CALL                     1
+                      POP_TOP
+      
+       406    L4:     LOAD_GLOBAL             13 (print + NULL)
+                      LOAD_CONST               3 ('\n\n')
+                      CALL                     1
+                      POP_TOP
+      
+       407            LOAD_GLOBAL             16 (time)
+                      LOAD_ATTR               18 (sleep)
+                      PUSH_NULL
+                      LOAD_CONST               8 (2)
+                      CALL                     1
+                      POP_TOP
+      
+       408            LOAD_GLOBAL             21 (main + NULL)
+                      CALL                     0
+                      POP_TOP
+                      RETURN_CONST             0 (None)
+      
+        --    L5:     PUSH_EXC_INFO
+      
+       401            LOAD_GLOBAL             14 (Exception)
+                      CHECK_EXC_MATCH
+                      POP_JUMP_IF_FALSE       24 (to L9)
+                      STORE_FAST               1 (e)
+      
+       402    L6:     LOAD_GLOBAL             13 (print + NULL)
+                      LOAD_CONST               6 ('Ошибка при удалении папки: ')
+                      LOAD_FAST                1 (e)
+                      FORMAT_SIMPLE
+                      BUILD_STRING             2
+                      CALL                     1
+                      POP_TOP
+              L7:     POP_EXCEPT
+                      LOAD_CONST               0 (None)
+                      STORE_FAST               1 (e)
+                      DELETE_FAST              1 (e)
+                      JUMP_BACKWARD_NO_INTERRUPT 73 (to L4)
+      
+        --    L8:     LOAD_CONST               0 (None)
+                      STORE_FAST               1 (e)
+                      DELETE_FAST              1 (e)
+                      RERAISE                  1
+      
+       401    L9:     RERAISE                  0
+      
+        --   L10:     COPY                     3
+                      POP_EXCEPT
+                      RERAISE                  1
+      ExceptionTable:
+        L1 to L2 -> L5 [0]
+        L5 to L6 -> L10 [1] lasti
+        L6 to L7 -> L8 [1] lasti
+        L8 to L10 -> L10 [1] lasti
+
+  ========================================================================
+  Code object: 'menu'
+    filename: MIY TWEAK.py
+    firstlineno: 412
+    argcount: 0 (posonly: 0, kwonly: 0, nlocals: 4)
+    varnames: ('console_width', 'menu', 'item', 'miy_art')
+    names: ('os', 'get_terminal_size', 'columns', 'center', 'print', 'Colorate', 'Horizontal', 'Colors', 'cyan_to_green')
+    consts (3):
+      [00] None
+      [01] ('[1] Удаление мусорных файлов', '[2] Оптимизация параметров TCP/IP', '[3] Восстановление параметров TCP/IP', '[4] От...
+      [02] 2
+
+    --- disassembly ---
+      412           RESUME                   0
+      
+      413           LOAD_GLOBAL              0 (os)
+                    LOAD_ATTR                2 (get_terminal_size)
+                    PUSH_NULL
+                    CALL                     0
+                    LOAD_ATTR                4 (columns)
+                    STORE_FAST               0 (console_width)
+      
+      414           BUILD_LIST               0
+                    LOAD_CONST               1 (('[1] Удаление мусорных файлов', '[2] Оптимизация параметров TCP/IP', '[3] Восстановление параметров TCP/IP', '[4] Отключение ненужных служб', '[5] Отключение SmartScreen', '[6] Отключение телеметрии', '[7] Отключение НРЕТ', '[8] Альтернативная настройка TCP/IP', '[9] Очистка логов Windows', '[10] Удаление файлов старой Windows', '[0] Exit'))
+                    LIST_EXTEND              1
+                    STORE_FAST               1 (menu)
+      
+      428           LOAD_FAST                1 (menu)
+                    GET_ITER
+            L1:     FOR_ITER                69 (to L2)
+                    STORE_FAST               2 (item)
+      
+      429           LOAD_FAST                2 (item)
+                    LOAD_ATTR                7 (center + NULL|self)
+                    LOAD_FAST                0 (console_width)
+                    LOAD_CONST               2 (2)
+                    BINARY_OP               10 (-)
+                    CALL                     1
+                    STORE_FAST               3 (miy_art)
+      
+      430           LOAD_GLOBAL              9 (print + NULL)
+                    LOAD_GLOBAL             10 (Colorate)
+                    LOAD_ATTR               12 (Horizontal)
+                    PUSH_NULL
+                    LOAD_GLOBAL             14 (Colors)
+                    LOAD_ATTR               16 (cyan_to_green)
+                    LOAD_FAST                3 (miy_art)
+                    CALL                     2
+                    CALL                     1
+                    POP_TOP
+                    JUMP_BACKWARD           71 (to L1)
+      
+      428   L2:     END_FOR
+                    POP_TOP
+                    RETURN_CONST             0 (None)
+
+  ========================================================================
+  Code object: 'main'
+    filename: MIY TWEAK.py
+    firstlineno: 433
+    argcount: 0 (posonly: 0, kwonly: 0, nlocals: 6)
+    varnames: ('art', 'console_width', 'line', 'centered_line', 'vibor_gradient', 'choice')
+    names: ('os', 'system', 'get_terminal_size', 'columns', 'print', 'center', 'Colorate', 'Horizontal', 'Colors', 'cyan_to_green', 'menu', 'green_to_red', 'input', 'musor', 'optimize_internet', 'reset_internet', 'disable_services', 'smartscreen', 'telemetry', 'bcdedit_tweaks', 'optimize_internet2', 'clear_event_logs', 'delete_old_windows', 'exit', 'RED', 'time', 'sleep', 'main')
+    consts (20):
+      [00] None
+      [01] 'cls'
+      [02] ('███╗   ███╗██╗██╗   ██╗', '████╗ ████║██║╚██╗ ██╔╝', '██╔████╔██║██║ ╚████╔╝ ', '██║╚██╔╝██║██║   ██╔╝  ', '██║ ╚═╝...
+      [03] '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'
+      [04] 2
+      [05] '\n'
+      [06] '\n\n\n\n\n\n'
+      [07] '[?] Выберите команду: '
+      [08] '1'
+      [09] '2'
+      [10] '3'
+      [11] '4'
+      [12] '5'
+      [13] '6'
+      [14] '7'
+      [15] '8'
+      [16] '9'
+      [17] '10'
+      [18] '0'
+      [19] 'Нет такой команды'
+
+    --- disassembly ---
+      433            RESUME                   0
+      
+      434            LOAD_GLOBAL              0 (os)
+                     LOAD_ATTR                2 (system)
+                     PUSH_NULL
+                     LOAD_CONST               1 ('cls')
+                     CALL                     1
+                     POP_TOP
+      
+      435            BUILD_LIST               0
+                     LOAD_CONST               2 (('███╗   ███╗██╗██╗   ██╗', '████╗ ████║██║╚██╗ ██╔╝', '██╔████╔██║██║ ╚████╔╝ ', '██║╚██╔╝██║██║   ██╔╝  ', '██║ ╚═╝ ██║██║   ██║   ', '╚═╝     ╚═╝╚═╝   ╚═╝   '))
+                     LIST_EXTEND              1
+                     STORE_FAST               0 (art)
+      
+      444            LOAD_GLOBAL              0 (os)
+                     LOAD_ATTR                4 (get_terminal_size)
+                     PUSH_NULL
+                     CALL                     0
+                     LOAD_ATTR                6 (columns)
+                     STORE_FAST               1 (console_width)
+      
+      445            LOAD_GLOBAL              9 (print + NULL)
+                     LOAD_CONST               3 ('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
+                     CALL                     1
+                     POP_TOP
+      
+      447            LOAD_FAST                0 (art)
+                     GET_ITER
+             L1:     FOR_ITER                69 (to L2)
+                     STORE_FAST               2 (line)
+      
+      448            LOAD_FAST                2 (line)
+                     LOAD_ATTR               11 (center + NULL|self)
+                     LOAD_FAST                1 (console_width)
+                     LOAD_CONST               4 (2)
+                     BINARY_OP               10 (-)
+                     CALL                     1
+                     STORE_FAST               3 (centered_line)
+      
+      449            LOAD_GLOBAL              9 (print + NULL)
+                     LOAD_GLOBAL             12 (Colorate)
+                     LOAD_ATTR               14 (Horizontal)
+                     PUSH_NULL
+                     LOAD_GLOBAL             16 (Colors)
+                     LOAD_ATTR               18 (cyan_to_green)
+                     LOAD_FAST                3 (centered_line)
+                     CALL                     2
+                     CALL                     1
+                     POP_TOP
+                     JUMP_BACKWARD           71 (to L1)
+      
+      447    L2:     END_FOR
+                     POP_TOP
+      
+      451            LOAD_GLOBAL              9 (print + NULL)
+                     LOAD_CONST               5 ('\n')
+                     CALL                     1
+                     POP_TOP
+      
+      453            LOAD_GLOBAL             21 (menu + NULL)
+                     CALL                     0
+                     POP_TOP
+      
+      455            LOAD_GLOBAL              9 (print + NULL)
+                     LOAD_CONST               6 ('\n\n\n\n\n\n')
+                     CALL                     1
+                     POP_TOP
+      
+      456            LOAD_CONST               7 ('[?] Выберите команду: ')
+                     STORE_FAST               4 (vibor_gradient)
+      
+      457            LOAD_GLOBAL             12 (Colorate)
+                     LOAD_ATTR               14 (Horizontal)
+                     PUSH_NULL
+                     LOAD_GLOBAL             16 (Colors)
+                     LOAD_ATTR               22 (green_to_red)
+                     LOAD_FAST                4 (vibor_gradient)
+                     CALL                     2
+                     STORE_FAST               4 (vibor_gradient)
+      
+      458            LOAD_GLOBAL             25 (input + NULL)
+                     LOAD_FAST                4 (vibor_gradient)
+                     CALL                     1
+                     STORE_FAST               5 (choice)
+      
+      460            LOAD_FAST                5 (choice)
+                     LOAD_CONST               8 ('1')
+                     COMPARE_OP              88 (bool(==))
+                     POP_JUMP_IF_FALSE       11 (to L3)
+      
+      461            LOAD_GLOBAL             27 (musor + NULL)
+                     CALL                     0
+                     POP_TOP
+                     RETURN_CONST             0 (None)
+      
+      462    L3:     LOAD_FAST                5 (choice)
+                     LOAD_CONST               9 ('2')
+                     COMPARE_OP              88 (bool(==))
+                     POP_JUMP_IF_FALSE       11 (to L4)
+      
+      463            LOAD_GLOBAL             29 (optimize_internet + NULL)
+                     CALL                     0
+                     POP_TOP
+                     RETURN_CONST             0 (None)
+      
+      464    L4:     LOAD_FAST                5 (choice)
+                     LOAD_CONST              10 ('3')
+                     COMPARE_OP              88 (bool(==))
+                     POP_JUMP_IF_FALSE       11 (to L5)
+      
+      465            LOAD_GLOBAL             31 (reset_internet + NULL)
+                     CALL                     0
+                     POP_TOP
+                     RETURN_CONST             0 (None)
+      
+      466    L5:     LOAD_FAST                5 (choice)
+                     LOAD_CONST              11 ('4')
+                     COMPARE_OP              88 (bool(==))
+                     POP_JUMP_IF_FALSE       11 (to L6)
+      
+      467            LOAD_GLOBAL             33 (disable_services + NULL)
+                     CALL                     0
+                     POP_TOP
+                     RETURN_CONST             0 (None)
+      
+      468    L6:     LOAD_FAST                5 (choice)
+                     LOAD_CONST              12 ('5')
+                     COMPARE_OP              88 (bool(==))
+                     POP_JUMP_IF_FALSE       11 (to L7)
+      
+      469            LOAD_GLOBAL             35 (smartscreen + NULL)
+                     CALL                     0
+                     POP_TOP
+                     RETURN_CONST             0 (None)
+      
+      470    L7:     LOAD_FAST                5 (choice)
+                     LOAD_CONST              13 ('6')
+                     COMPARE_OP              88 (bool(==))
+                     POP_JUMP_IF_FALSE       11 (to L8)
+      
+      471            LOAD_GLOBAL             37 (telemetry + NULL)
+                     CALL                     0
+                     POP_TOP
+                     RETURN_CONST             0 (None)
+      
+      472    L8:     LOAD_FAST                5 (choice)
+                     LOAD_CONST              14 ('7')
+                     COMPARE_OP              88 (bool(==))
+                     POP_JUMP_IF_FALSE       11 (to L9)
+      
+      473            LOAD_GLOBAL             39 (bcdedit_tweaks + NULL)
+                     CALL                     0
+                     POP_TOP
+                     RETURN_CONST             0 (None)
+      
+      474    L9:     LOAD_FAST                5 (choice)
+                     LOAD_CONST              15 ('8')
+                     COMPARE_OP              88 (bool(==))
+                     POP_JUMP_IF_FALSE       11 (to L10)
+      
+      475            LOAD_GLOBAL             41 (optimize_internet2 + NULL)
+                     CALL                     0
+                     POP_TOP
+                     RETURN_CONST             0 (None)
+      
+      476   L10:     LOAD_FAST                5 (choice)
+                     LOAD_CONST              16 ('9')
+                     COMPARE_OP              88 (bool(==))
+                     POP_JUMP_IF_FALSE       11 (to L11)
+      
+      477            LOAD_GLOBAL             43 (clear_event_logs + NULL)
+                     CALL                     0
+                     POP_TOP
+                     RETURN_CONST             0 (None)
+      
+      478   L11:     LOAD_FAST                5 (choice)
+                     LOAD_CONST              17 ('10')
+                     COMPARE_OP              88 (bool(==))
+                     POP_JUMP_IF_FALSE       11 (to L12)
+      
+      479            LOAD_GLOBAL             45 (delete_old_windows + NULL)
+                     CALL                     0
+                     POP_TOP
+                     RETURN_CONST             0 (None)
+      
+      480   L12:     LOAD_FAST                5 (choice)
+                     LOAD_CONST              18 ('0')
+                     COMPARE_OP              88 (bool(==))
+                     POP_JUMP_IF_FALSE       11 (to L13)
+      
+      481            LOAD_GLOBAL             47 (exit + NULL)
+                     CALL                     0
+                     POP_TOP
+                     RETURN_CONST             0 (None)
+      
+      483   L13:     LOAD_GLOBAL              0 (os)
+                     LOAD_ATTR                2 (system)
+                     PUSH_NULL
+                     LOAD_CONST               1 ('cls')
+                     CALL                     1
+                     POP_TOP
+      
+      484            LOAD_GLOBAL              9 (print + NULL)
+                     LOAD_GLOBAL             48 (RED)
+                     LOAD_CONST              19 ('Нет такой команды')
+                     BINARY_OP                0 (+)
+                     CALL                     1
+                     POP_TOP
+      
+      485            LOAD_GLOBAL             50 (time)
+                     LOAD_ATTR               52 (sleep)
+                     PUSH_NULL
+                     LOAD_CONST               4 (2)
+                     CALL                     1
+                     POP_TOP
+      
+      486            LOAD_GLOBAL             55 (main + NULL)
+                     CALL                     0
+                     POP_TOP
+                     RETURN_CONST             0 (None)
+
